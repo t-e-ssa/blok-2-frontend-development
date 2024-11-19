@@ -36,14 +36,16 @@ https://t-e-ssa.github.io/blok-2-frontend-development/
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  Link naar de website die ik ga namaken: https://www.starbucks.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Pagina 1: Starbucks Homepagina 
+  
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Pagina 2: Starbucks Chilled Coffee   
+  
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
