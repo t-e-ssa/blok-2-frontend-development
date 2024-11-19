@@ -40,18 +40,19 @@ https://t-e-ssa.github.io/blok-2-frontend-development/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Pagina 1: Starbucks Homepagina 
+  Paginalink: https://www.starbucks.nl/
+
+  
+  
+  #### Screenshot(s) van de tweede pagina (small screen):
+  Pagina 2: Starbucks Chilled Coffee   
+  Paginalink: https://www.starbuckschilledcoffee.com/nl/#quiz
   
   <img src="readme-images/pagina_1_deel_1.png" width="375px" alt="Het eerste gedeelte van pagina 1 gescreenshot">
   <img src="readme-images/pagina_1_deel_2.png" width="375px" alt="Het tweede gedeelte van pagina 1 gescreenshot">
   <img src="readme-images/pagina_1_deel_3.png" width="375px" alt="Het derde gedeelte van pagina 1 gescreenshot">
   <img src="readme-images/pagina_1_deel_4.png" width="375px" alt="Het vierde gedeelte van pagina 1 gescreenshot">
   <img src="readme-images/pagina_1_deel_5.png" width="375px" alt="Het vijfde gedeelte van pagina 1 gescreenshot">
-
-  #### Screenshot(s) van de tweede pagina (small screen):
-  Pagina 2: Starbucks Chilled Coffee   
-  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
 </details>
 
 
