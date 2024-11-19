@@ -42,7 +42,7 @@ https://t-e-ssa.github.io/blok-2-frontend-development/
   Pagina 1: Starbucks Homepagina 
   Paginalink: https://www.starbucks.nl/
 
-  <img src="readme-images/pagina_1_.png" width="375px" alt="Pagina één gescreenshot">
+  <img src="readme-images/pagina_1.png" width="375px" alt="Pagina één gescreenshot">
   
   
   
