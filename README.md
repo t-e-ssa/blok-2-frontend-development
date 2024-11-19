@@ -48,7 +48,8 @@ https://t-e-ssa.github.io/blok-2-frontend-development/
   #### Screenshot(s) van de tweede pagina (small screen):
   Pagina 2: Starbucks Chilled Coffee   
   Paginalink: https://www.starbuckschilledcoffee.com/nl/#quiz
-  
+
+  <img src="readme-images/pagina_2.png" width="375px" alt="Pagina twee gescreenshot">
 </details>
 
 
