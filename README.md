@@ -16,13 +16,13 @@ https://t-e-ssa.github.io/blok-2-frontend-development/
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Tessa Strijbis
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Startniveau blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Responsive
  
 </details>
 
