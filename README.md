@@ -43,11 +43,6 @@ https://t-e-ssa.github.io/blok-2-frontend-development/
   Paginalink: https://www.starbucks.nl/
 
   <img src="readme-images/pagina_1.png" width="375px" alt="Pagina één gescreenshot">
-
-  Pagina 1: Menu op de homepagina
-
-  <img src="readme-images/pagina_1_menu.png" width="375px" alt="Pagina één menu gescreenshot">
-  
   
   
   #### Screenshot(s) van de tweede pagina (small screen):
