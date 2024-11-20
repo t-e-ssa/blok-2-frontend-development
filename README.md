@@ -72,13 +72,11 @@ https://t-e-ssa.github.io/blok-2-frontend-development/
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown_schets-pagina_1.png" width="375px" alt="breakdown van de gehele eerste pagina">
+  <img src="readme-images/breakdown_schets-pagina_2.png" width="375px" alt="breakdown van de gehele tweede pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/breakdown_schets-menu.png" width="375px" alt="breakdown van een menu">
 
 </details>
 
