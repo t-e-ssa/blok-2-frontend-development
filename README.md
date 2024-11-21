@@ -59,8 +59,8 @@ https://t-e-ssa.github.io/blok-2-frontend-development/
 <details>
   Website starbucks.nl
 Test 1 door Tessa Strijbis
-<br>
-<em>Content</em>
+
+**Content**
 1.	Duidelijk taalgebruik en vermijd stijlfiguren, idiomen en ingewikkelde metaforen.
 2.	Zorg ervoor dat de inhoud van knoppen, links en labels (in formulieren) uniek en beschrijvend zijn. 
 
@@ -117,7 +117,7 @@ Opmerkingen – Koppen
 Koppen worden goed gebruikt om inhoud te introduceren en de pagina’s hebben slechts één h1-element per pagina of weergave. De koppen volgen meestal een logische volgorde, maar soms worden sommige niveaus overgeslagen. Dan wordt er wel gebruik gemaakt van een h2 of een h4, maar dan is er nergens op die pagina een h3 gebruikt.
 
 
-**Lijsten **
+**Lijsten**
 Lijstelementen laten mensen weten of een verzameling items gerelateerd is, of ze opeenvolgend zijn en hoeveel items er in de lijstgroepering aanwezig zijn.
 
 1.	Gebruik lijstelementen (ol-, ul- en di-elementen) voor de lijstinhoud.
@@ -126,7 +126,7 @@ Opmerkingen – Lijsten
 Lijsten worden meestal correct opgebouwd met ul- en ol-elementen. 
 
 
-**Afbeeldingen **
+**Afbeeldingen**
 Afbeeldingen zijn een veelvoorkomend onderdeel van de meeste websites. Zorg ervoor dat iedereen ervan kan genieten.
 1.	Zorg ervoor dat alle img-elementen een alt-attribuut hebben.
 2.	Zorg ervoor dat decoratieve afbeeldingen lege attribuutwaarden (null alt) gebruiken.
