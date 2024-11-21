@@ -59,8 +59,8 @@ https://t-e-ssa.github.io/blok-2-frontend-development/
 <details>
   Website starbucks.nl
 Test 1 door Tessa Strijbis
-
-Content
+<br>
+**Content**
 1.	Duidelijk taalgebruik en vermijd stijlfiguren, idiomen en ingewikkelde metaforen.
 2.	Zorg ervoor dat de inhoud van knoppen, links en labels (in formulieren) uniek en beschrijvend zijn. 
 
@@ -73,7 +73,7 @@ Het taalgebruik verder is over het algemeen niet lastig verwoord en erg duidelij
 Wel staan er op de pagina “Onze koffie” veel knoppen die niet direct aangeven waar ze naar toe wijzen. De knoppen hebben dan bijvoorbeeld de namen “Medium Roasts” of “Blonde Roasts”.
 
 
-Global code
+**Global code**
 1.	Valideer uw HTML.
 2.	Gebruik een lang-attribuut op het HTML-element.
 3.	Geef elke pagina een unieke titel.
@@ -84,10 +84,7 @@ Bij het valideren komen er heel veel info’s, waarschuwingen en een aantal erro
 Het HTML-element bevat inderdaad een lang-attribuut. Verder bevat elke pagina een unieke titel en de viewport-zoom is ingeschakeld. 
 
 
-
-
-
-Keyboard
+**Keyboard**
 Het is belangrijk dat uw interface en content bediend en genavigeerd kunnen worden met behulp van een toetsenbord. Sommige mensen kunnen geen muis gebruiken of gebruiken andere ondersteunde technologieën die mogelijk niet toestaan om te zweven of nauwkeurig te klikken. 
 
 1.	Zorg dat er een zichtbare focusstijl is voor interactieve elementen die worden genavigeerd (tab en shift + tab) via toetsenbordinvoer. 
@@ -97,8 +94,7 @@ Opmerkingen – Keyboard
 De focusstijl voor interactieve elementen wordt aangegeven door een groene rand om de elementen heen. Dit is duidelijk zichtbaar.
 De focusvolgorde komt over het algemeen overeen met de visuele lay-out, maar toch zijn er plekken die worden overgeslagen als het gaat om de site verkennen met het toetsenbord. Kijk bijvoorbeeld naar de pagina “Onze koffies”. Op deze pagina kom je met alleen het toetsenbord niet bij de knop “Bestel nu”, terwijl dat juist zo’n belangrijke knop is.
 
-
-Mobiel en aanraking
+**Mobiel en aanraking**
 Waar u op moet letten bij mobiele ervaringen. 
 1.	Controleer of de site in elke gewenste richting kan worden gedraaid. 
 2.	Horizontaal scrollen verwijderen.
@@ -109,7 +105,7 @@ Opmerkingen – Mobiel en aanraking
 De Starbucks site ondersteunt zowel portret- als landschapsweergave goed. Horizontaal scrollen is ook niet van toepassing bij de site. Verder zijn de knoppen op de site over het algemeen groot genoeg. De links daarentegen zouden wel extra ruimte mogen krijgen, zodat het voor de gebruiker makkelijker wordt om de juiste aan te kunnen klikken. Tot slot is de ruimte tussen de interactieve items voldoende. 
 
 
-Koppen
+**Koppen**
 Koptekstelementen (h1, h2, h3, etc.) helpen de inhoud van de pagina op te delen in gerelateerde “brokken” informatie. Ze zijn ongelooflijk belangrijk om mensen die ondersteunende technologie gebruiken te helpen de betekenis van een pagina of weergave te begrijpen.
 
 1.	Gebruik kopteksten om inhoud te introduceren.
@@ -121,7 +117,7 @@ Opmerkingen – Koppen
 Koppen worden goed gebruikt om inhoud te introduceren en de pagina’s hebben slechts één h1-element per pagina of weergave. De koppen volgen meestal een logische volgorde, maar soms worden sommige niveaus overgeslagen. Dan wordt er wel gebruik gemaakt van een h2 of een h4, maar dan is er nergens op die pagina een h3 gebruikt.
 
 
-Lijsten 
+**Lijsten **
 Lijstelementen laten mensen weten of een verzameling items gerelateerd is, of ze opeenvolgend zijn en hoeveel items er in de lijstgroepering aanwezig zijn.
 
 1.	Gebruik lijstelementen (ol-, ul- en di-elementen) voor de lijstinhoud.
@@ -130,7 +126,7 @@ Opmerkingen – Lijsten
 Lijsten worden meestal correct opgebouwd met ul- en ol-elementen. 
 
 
-Afbeeldingen 
+**Afbeeldingen **
 Afbeeldingen zijn een veelvoorkomend onderdeel van de meeste websites. Zorg ervoor dat iedereen ervan kan genieten.
 1.	Zorg ervoor dat alle img-elementen een alt-attribuut hebben.
 2.	Zorg ervoor dat decoratieve afbeeldingen lege attribuutwaarden (null alt) gebruiken.
@@ -140,20 +136,18 @@ Afbeeldingen zijn een veelvoorkomend onderdeel van de meeste websites. Zorg ervo
 Opmerkingen – Afbeeldingen
 Niet alle afbeeldingen zijn voorzien van een alt-attribuut. Dit is wel erg belangrijk voor het gebruik van een screenreader. Verder heeft de kaart op de homepagina geen beschrijvende tekst die verteld wat er op die kaart te zien is.
 
-Media (Video en Audio)
+**Media (Video en Audio)**
 Media omvatten content zoals vooraf opgenomen en live audio en video.
 1.	Zorg ervoor dat de media niet automatisch wordt afgespeeld.
 2.	Controleer of alle media gepauzeerd kunnen worden.
 3.	Video – Controleer of er ondertiteling aanwezig is.
 4.	Audio – Controleer of er transcripties beschikbaar zijn.
 
-
-
 Opmerking – Media
 Bij de pagina “Verantwoordelijkheid” is goed te zien hoe media niet automatisch wordt afgespeeld en juist een play- en pauzeknop bevat, maar op de pagina “Starbucks Ready tot Drink” is te zien hoe media juist automatisch al afspeelt en hier is ook geen play- en pauzeknop aanwezig. Op de pagina “Verantwoordelijkheid is de video een link naar een YouTube video. Hierbij is ondertiteling aanwezig maar geen transcriptie. Als je kijkt naar de pagina “Starbucks Ready to Drink” is er helemaal ondertiteling aanwezig of transcriptie. Er wordt in deze video’s niet gesproken dus ondertiteling is hier geen noodzaak.
 
 
-Controles
+**Controles**
 Bedieningselementen zijn interactie elementen, zoals koppelingen en knoppen, waarmee een gebruiker naar een bestemming kan navigeren of een actie kan uitvoeren.
 1.	Gebruik het a-element voor links.
 2.	Zorg ervoor dat links herkenbaar zijn als links.
@@ -166,7 +160,7 @@ Opmerkingen – Controles
 De links zijn correct weergegeven met a-elementen. De meeste links zijn duidelijk herkenbaar, alleen in de footer van de site is niet meteen duidelijk te zien dat sommige onderdelen ook links zijn. Besturingselementen hebben een focusstatus. Deze focusstatus zou wel eventueel iets consistenter worden toegepast. Verder zijn de knoppen correct weergegeven met button-elementen. Er is geen zichtbare skiplink aanwezig. Het toevoegen van een skiplink kan navigatie voor toetsenbord gebruikers sterk verbeteren. Als laatste worden links die in nieuwe tabbladen worden geopend niet altijd aangekondigd. 
 
 
-Verschijning
+**Verschijning**
 Hoe de inhoud van uw website-app er in een bepaalde situatie uitziet.
 1.	Controleer of de donkere en lichte modus worden ondersteund.
 2.	Controleer of de modus met hoog contrast wordt ondersteund.
@@ -177,7 +171,7 @@ Opmerkingen – Verschijning
 De site ondersteunt geen donkere modus en een hoog contrastmodus wordt niet volledig ondersteund. De tekst vergroten tot 200% zorgt er wel voor dat de lay-out grotendeels intact blijft. Er wordt op de site goed rekeningen mee gehouden dat kleur niet de enige manier is om informatie over te brengen.
 
 
-Animatie
+**Animatie**
 Content die beweegt, hetzij uit zichzelf, hetzij wanneer deze wordt geactiveerd door een persoon die een besturingselement activeert. 
 1.	Zorg ervoor dat de animaties subtiel zijn en niet te veel opvallen. 
 2.	Zorg voor een mechanisme om de achtergrondvideo te pauzeren.
@@ -187,7 +181,7 @@ Opmerkingen – Animatie
 De animaties zijn over het algemeen subtiel en niet erg afleidend. Er is zoals eerder als verteld niet overal een mogelijkheid om achtergrondvideo’s te pauzeren. Verder houdt de website geen rekening met de prefers-reduced-motion-instelling. 
 
 
-Kleurcontrast
+**Kleurcontrast**
 Kleurcontrast is de leesbaarheid van kleuren als ze naast en op elkaar worden geplaatst.
 1.	Controleer het contrast voor alle tekst van normale grootte.
 2.	Controleer het contrast voor alle grote tekst.
@@ -198,7 +192,7 @@ Kleurcontrast is de leesbaarheid van kleuren als ze naast en op elkaar worden ge
 Opmerkingen - Kleurcontrast
 Het contrast van bijna alle tekst van normale grootte is voldoende. In de footer van de site staat onderaan wel tekst/links die een minder goed contrast hebben doordat die onderdelen een donkere kleur tekst hebben en de achtergrond is daar ook al donker van kleur. Het contrast voor alle grote tekst en pictogrammen is wel helemaal voldoende. Ook de tekst die afbeeldingen of video overlapt bevat voldoende contrast. Dit geld ook voor de aangepaste selectiekleuren.
 
-![image](https://github.com/user-attachments/assets/2c34e575-a9c4-4305-a836-33e4ed42cbd6)
+
 
   ### Bevindingen
   Conclusie van test 1
