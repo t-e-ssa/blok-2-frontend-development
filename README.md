@@ -228,6 +228,13 @@ Media
 
 Contrast 
 1.	Ondersteun donkere modus en een hoog contrastmodus
+
+
+
+
+**Conclusie screenreader van test 1**
+De Nederlandse Starbucks-website heeft enkele toegankelijkheidsproblemen voor gebruikers van screenreaders. Veel link, zoals die naar promoties of seizoensgebonden items zijn afbeeldingen zonder alternatieve tekst, wat verwarrend kan zijn. Ook missen sommige knoppen, zoals voor bestellen, belangrijke beschrijvingen, wat het navigeren moeilijker maakt. Door alternatieve tekst toe te voegen en knoppen duidelijker te labelen, kan de website gebruiksvriendelijk worden voor alle bezoekers. 
+
   
 </details>
 
