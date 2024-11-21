@@ -196,6 +196,8 @@ Het contrast van bijna alle tekst van normale grootte is voldoende. In de footer
 
   ### Bevindingen
   Conclusie van test 1
+
+
 Taalgebruik
 1.	Vermijd het gebruik van Engelse termen in een Nederlandse versie van de website.
 
