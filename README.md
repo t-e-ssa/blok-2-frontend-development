@@ -60,7 +60,7 @@ https://t-e-ssa.github.io/blok-2-frontend-development/
   Website starbucks.nl
 Test 1 door Tessa Strijbis
 <br>
-**Content**
+<em>Content</em>
 1.	Duidelijk taalgebruik en vermijd stijlfiguren, idiomen en ingewikkelde metaforen.
 2.	Zorg ervoor dat de inhoud van knoppen, links en labels (in formulieren) uniek en beschrijvend zijn. 
 
