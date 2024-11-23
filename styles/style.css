@@ -1,31 +1,101 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
-}
-
-
-
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--merkKleur: #00704A; 
+	--tweedeMerkKleur: white;
+}
+
+* {
+	font-family: sans-serif;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+p {
+	font-size: 0.9em;
+}
+
+/* Navigatie - Header */
+nav img {
+	width: 20vw;
+	height: 20vh;
+}
+
+/* Pagina 1 - Homepagina */
+.inleiding {
+	background-color: var(--merkKleur, green);
+	width: 100vw;
+	height: 25vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+.inleiding h1 {
+	color: var(--tweedeMerkKleur);
+	font-size: 1.2em;
+}
+
+.inleiding a, .stanley_container a {
+	text-decoration: none;
+	border-radius: 20px;
+	background-color: var(--tweedeMerkKleur);
+	color: black;
+	
+	height: 5vh;
+	width: 85vw ;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5%;
+	
 }
 
 
+.feestdagen_container {
+	position: relative;
+}
+
+.feestdagen_container img {
+	width: 100vw;
+	height: 30vh;
+}
+
+.feestdagen_container h2 {
+	position: absolute;
+	color: var(--tweedeMerkKleur);
+	font-size: 1em;
+	width: 29%;
+	margin-left: 2.5%;
+	font-weight: 500;
+}
 
 
+.stanley_container {
+	background-color: var(--merkKleur);
+	color: var(--tweedeMerkKleur);
+	border-radius: 10px;
 
-/****************/
-/* JOUW STYLING */
-/****************/
+	margin: 5%;
+	width: 90vw;
+	height: 65vh;
+}
 
-/* jouw code */
+.stanley_container img {
+	width: 90vw;
+	height: 30vh;
 
+	border-radius: 10px 10px 0 0;
+}
+
+.stanley_container h2, p, a {
+	margin: 20px;
+}
+
+.stanley_container a {
+	width: 80vw;
+}
