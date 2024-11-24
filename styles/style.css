@@ -1,6 +1,8 @@
 :root {
-	--merkKleur: #00704A; 
-	--tweedeMerkKleur: white;
+	--primaireKleur: #00704A; 
+	--secundaireKleur: white;
+	--tertaireKleur: #F2F2F2; 
+	--quaternaireKleur: #243830;
 }
 
 * {
@@ -8,12 +10,13 @@
 }
 
 h2 {
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 p {
 	font-size: 0.9em;
 }
+
 
 /* Navigatie - Header */
 nav img {
@@ -21,9 +24,10 @@ nav img {
 	height: 20vh;
 }
 
+
 /* Pagina 1 - Homepagina */
 .inleiding {
-	background-color: var(--merkKleur, green);
+	background-color: var(--primaireKleur, green);
 	width: 100vw;
 	height: 25vh;
 
@@ -35,26 +39,26 @@ nav img {
 }
 
 .inleiding h1 {
-	color: var(--tweedeMerkKleur);
+	color: var(--secundaireKleur);
 	font-size: 1.2em;
 }
 
-.inleiding a, .stanley_container a {
+.inleiding a, .groene_container a,button {
 	text-decoration: none;
 	border-radius: 20px;
-	background-color: var(--tweedeMerkKleur);
+	background-color: var(--secundaireKleur);
 	color: black;
+	border: none;
+	font-size: 1em;
 	
-	height: 5vh;
-	width: 85vw ;
+	height: 6.5vh;
+	width: 80vw;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 5%;
-	
 }
-
 
 .feestdagen_container {
 	position: relative;
@@ -67,17 +71,16 @@ nav img {
 
 .feestdagen_container h2 {
 	position: absolute;
-	color: var(--tweedeMerkKleur);
+	color: var(--secundaireKleur);
 	font-size: 1em;
 	width: 29%;
 	margin-left: 2.5%;
 	font-weight: 500;
 }
 
-
-.stanley_container {
-	background-color: var(--merkKleur);
-	color: var(--tweedeMerkKleur);
+.groene_container {
+	background-color: var(--primaireKleur, green);
+	color: var(--secundaireKleur);
 	border-radius: 10px;
 
 	margin: 5%;
@@ -85,17 +88,74 @@ nav img {
 	height: 65vh;
 }
 
-.stanley_container img {
+.groene_container img {
 	width: 90vw;
 	height: 30vh;
-
 	border-radius: 10px 10px 0 0;
 }
 
-.stanley_container h2, p, a {
+.groene_container h2, p, a {
 	margin: 20px;
 }
 
-.stanley_container a {
+.groene_container iframe {
+	width: 90vw;
+	height: 30vh;
+	border: none;
+	border-radius: 10px 10px 0 0;
+}
+
+.grijze_container {
+	background-color: var(--tertaireKleur);
+	border-radius: 10px;
+
+	margin: 5%;
+	width: 90vw;
+	height: 65vh;
+}
+
+.grijze_container img {
+	width: 90vw;
+	height: 30vh;
+	border-radius: 10px 10px 0 0;
+}
+
+.grijze_container h2, p, a {
+	margin: 20px;
+}
+
+.grijze_container a {
+	text-decoration: none;
+	border-radius: 20px;
+	background-color: var(--primaireKleur);
+	color: var(--secundaireKleur);
+	
+	height: 6.5vh;
 	width: 80vw;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5%;
+}
+
+.grijze_container article {
+	background-color: var(--quaternaireKleur);
+	color: var(--secundaireKleur);
+
+	width: 90vw;
+	height: 30vh;
+	border-radius: 10px 10px 0 0;
+
+	display: flex;
+	align-items: center;
+}
+
+.grijze_container h3 {
+	text-transform: uppercase;
+	font-size: 2em;
+	color: var(--secundaireKleur);
+
+	width: 40vw;
+	margin-left: 5%;
 }
