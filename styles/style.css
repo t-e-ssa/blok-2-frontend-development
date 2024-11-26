@@ -18,13 +18,35 @@ p {
 	font-size: 0.9em;
 }
 
-
 /* Navigatie - Header */
 nav img {
 	width: 20vw;
 	height: 20vh;
 }
 
+footer {
+	background-color: var(--quaternaireKleur);
+	color: var(--secundaireKleur);
+}
+
+footer a {
+	text-decoration: none;
+	color: var(--secundaireKleur);
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul img {
+	width: 8em;
+	height: 8em;
+	border-radius: 200px;
+}
+
+footer details ul {
+	padding-left: 8px;
+}
 
 /* Pagina 1 - Homepagina */
 .inleiding {
