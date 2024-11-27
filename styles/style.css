@@ -18,12 +18,52 @@ p {
 	font-size: 0.9em;
 }
 
-/* Navigatie - Header */
-nav img {
-	width: 20vw;
-	height: 20vh;
+/* Header - Navigatie */
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 13vh;
 }
 
+header img {
+	width: 15vw;
+	height: 15vh;
+}
+
+header button img {
+	width: 2.5em;
+	height: 2em;
+	margin-left: auto;
+}
+
+nav {
+	position:fixed;
+ 	left:0;
+  	right:0;
+  	top:0;
+  	bottom:0;
+  
+  	translate:-100% 0%;
+  	transition:translate .7s;
+
+	background-color: var(--secundaireKleur);
+	z-index: 15;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav.toonMenu {
+	translate:0% 0%;
+}
+
+/* Footer */
 footer {
 	background-color: var(--quaternaireKleur);
 	color: var(--secundaireKleur);
@@ -48,6 +88,7 @@ footer details ul {
 	padding-left: 8px;
 }
 
+
 /* Pagina 1 - Homepagina */
 .inleiding {
 	background-color: var(--primaireKleur, green);
@@ -66,7 +107,7 @@ footer details ul {
 	font-size: 1.2em;
 }
 
-.inleiding a, .groene_container a,button {
+.inleiding a, .groene_container a, button {
 	text-decoration: none;
 	border-radius: 20px;
 	background-color: var(--secundaireKleur);

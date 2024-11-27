@@ -9,84 +9,96 @@
 		
 		<link href="styles/style.css" rel="stylesheet">
 		<link rel="icon" type="image/svg+xml" href="images/logo.svg">
-
-		<nav>
-			<a href="#"><img src="images/logo.svg" alt="Dit is een afbeelding van het logo van Starbucks."></a>
-			<ul>
-				<li><a href="#">Menu</a></li>
-				<li><a href="#">Onze koffies</a></li>
-				<li><a href="#">Bezorging</a></li>
-				<li><a href="#">Verantwoordelijkheid</a></li>
-				<li><a href="#">Carrière</a></li>
-				<li><a href="#">Studentenkorting</a></li>
-			</ul>
-	
-			<ul>
-				<li><a href="#">Vind een winkel</a></li>
-				<li><a href="#">Nederlands</a></li>
-			</ul>
-	
-			<ul>
-				<li><a href="#">Over ons</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">Sociale impact</a></li>
-			</ul>
-		</nav>
 	</head>
 
 	<body>
-		<section class="inleiding">
-			<h1>Starbucks®</h1>
-			<a href="#">Vind jouw dichtstbijzijnde locatie</a>
-		</section>	
+		<header>
+			<a href="#"><img src="images/logo.svg" alt="Dit is een afbeelding van het logo van Starbucks."></a>
+			<button aria-hidden="true"><img src="images/afbeelding_hamburger-menu.png" alt=""></button>
 
-		<section class="feestdagen_container">
-			<h2>De feestdagen klassiekers zijn terug</h2>
-			<img src="images/afbeelding_feestdagen_klassiekers.webp" alt="Een afbeelding van drie verschillende drankjes. De drankjes die getoond worden zijn: Gingerbread Latte, Toffee Nut Latte en Stroopwafel Latte.">
-		</section>
+			<nav>
+				<button aria-hidden="true"><img src="images/afbeelding_menu_sluiten.png" alt=""></button>
+
+				<div>
+					<ul>
+						<li><a class="huidige_pagina">Home</a></li>
+						<li><a href="#">Menu</a></li>
+						<li><a href="#">Onze koffies</a></li>
+						<li><a href="#">Bezorging</a></li>
+						<li><a href="#">Verantwoordelijkheid</a></li>
+						<li><a href="#">Carrière</a></li>
+						<li><a href="#">Studentenkorting</a></li>
+					</ul>
+			
+					<ul>
+						<li><a href="#">Vind een winkel</a></li>
+						<li><a href="#">Nederlands</a></li>
+					</ul>
+			
+				</div>
+				
+				<ul>
+					<li><a href="#">Over ons</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Sociale impact</a></li>
+				</ul>
+			</nav>
+		</header>
+	
+		<main>
+			<section class="inleiding">
+				<h1>Starbucks®</h1>
+				<a href="#">Vind jouw dichtstbijzijnde locatie</a>
+			</section>	
+	
+			<section class="feestdagen_container">
+				<h2>De feestdagen klassiekers zijn terug</h2>
+				<img src="images/afbeelding_feestdagen_klassiekers.webp" alt="Een afbeelding van drie verschillende drankjes. De drankjes die getoond worden zijn: Gingerbread Latte, Toffee Nut Latte en Stroopwafel Latte.">
+			</section>
+			
+			<section class="groene_container">
+				<!-- <h3>Starbucks® + Stanley®</h3>
+				<p>Jouw favoriete formaat, hele dag de ideale temperatuur</p>
+				<p>Limited edition</p>
+				-->
+				<img src="images/afbeelding_stanleycup.webp" alt="Een afbeelding van een Starbucks actie...">
+	
+				<h2>Ben je klaar voor dé ultieme Red Cup van het seizoen?</h2>
+				<p>De Limited Edition Starbucks + Stanley Quencher is er! Wees er snel bij en blijf stijlvol gehydrateerd!</p>
+				<a href="#">Vind jouw dichtstbijzijnde locatie</a>
+			</section>
+			
+			<section class="grijze_container">
+				<img src="images/afbeelding_starbucks_bezorging.jpeg" alt="Een afbeelding van....">
+				<h2>Starbucks® Bezorgd</h2>
+				<p>Geniet van al je favorieten knus op je bank terwijl je je favoriete serie bingewatcht. We bezorgen tot aan je deur, zodat je kunt genieten van je Iced Latte of Caramel Frappuccino in de comfort van je eigen huis.</p>
+				<a href="#">Bestel nu</a>
+			</section>
+	
+			<section class="groene_container">
+				<img src="images/afbeelding_duurzaamheid.jpeg" alt="">
+				<h2>Duurzaamheid omarmen</h2>
+				<p>Vanaf 1 juli 2023 brengen we kosten in rekening voor alle wegwerp items gemaakt van plastic. Go Green 💚</p>
+				<a href="#">Ontdek meer</a>
+			</section>
+	
+			<section class="grijze_container">
+				<article><h3>Starbucks® on the record</h3></article>
+				<h2>Starbucks® verklaringen</h2>
+				<p>In reactie op verkeerde informatie die de ronde doet op sociale media en nieuwskanalen, willen we graag de feiten over de overtuigingen en waarden van Starbucks met je delen.</p>
+				<a href="#">Ontdek meer</a>
+			</section>
+	
+			<section class="groene_container">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1209208.2639000192!2d4.706826622994318!3d52.223851711406134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c3db87e4bb%3A0xb3a175ceffbd0a9f!2sNederland!5e1!3m2!1snl!2snl!4v1732460500712!5m2!1snl!2snl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<h2>Vind een winkel</h2>
+				<p>Deel je locatie om altijd de dichtstbijzijnde winkel te vinden, zodat je kunt op voorhand bestellen of in de winkel betalen.</p>
+				<button>Locatie delen</button>
+			</section>
+	
+			<script defer src="scripts/script.js"></script>
+		</main>
 		
-		<section class="groene_container">
-			<!-- <h3>Starbucks® + Stanley®</h3>
-			<p>Jouw favoriete formaat, hele dag de ideale temperatuur</p>
-			<p>Limited edition</p>
-			-->
-			<img src="images/afbeelding_stanleycup.webp" alt="Een afbeelding van een Starbucks actie...">
-
-			<h2>Ben je klaar voor dé ultieme Red Cup van het seizoen?</h2>
-			<p>De Limited Edition Starbucks + Stanley Quencher is er! Wees er snel bij en blijf stijlvol gehydrateerd!</p>
-			<a href="#">Vind jouw dichtstbijzijnde locatie</a>
-		</section>
-		
-		<section class="grijze_container">
-			<img src="images/afbeelding_starbucks_bezorging.jpeg" alt="Een afbeelding van....">
-			<h2>Starbucks® Bezorgd</h2>
-			<p>Geniet van al je favorieten knus op je bank terwijl je je favoriete serie bingewatcht. We bezorgen tot aan je deur, zodat je kunt genieten van je Iced Latte of Caramel Frappuccino in de comfort van je eigen huis.</p>
-			<a href="#">Bestel nu</a>
-		</section>
-
-		<section class="groene_container">
-			<img src="images/afbeelding_duurzaamheid.jpeg" alt="">
-			<h2>Duurzaamheid omarmen</h2>
-			<p>Vanaf 1 juli 2023 brengen we kosten in rekening voor alle wegwerp items gemaakt van plastic. Go Green 💚</p>
-			<a href="#">Ontdek meer</a>
-		</section>
-
-		<section class="grijze_container">
-			<article><h3>Starbucks® on the record</h3></article>
-			<h2>Starbucks® verklaringen</h2>
-			<p>In reactie op verkeerde informatie die de ronde doet op sociale media en nieuwskanalen, willen we graag de feiten over de overtuigingen en waarden van Starbucks met je delen.</p>
-			<a href="#">Ontdek meer</a>
-		</section>
-
-		<section class="groene_container">
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1209208.2639000192!2d4.706826622994318!3d52.223851711406134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c609c3db87e4bb%3A0xb3a175ceffbd0a9f!2sNederland!5e1!3m2!1snl!2snl!4v1732460500712!5m2!1snl!2snl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-			<h2>Vind een winkel</h2>
-			<p>Deel je locatie om altijd de dichtstbijzijnde winkel te vinden, zodat je kunt op voorhand bestellen of in de winkel betalen.</p>
-			<button>Locatie delen</button>
-		</section>
-
-		<script defer src="scripts/script.js"></script>
-
 		<footer>
 			<details>
 				<summary>Over ons</summary>
@@ -97,7 +109,7 @@
 					<li><a href="#">Starbucks® Ready to Drink</a></li>
 				</ul>
 			</details>
-
+	
 			<details>
 				<summary>Contact</summary>
 				<ul>
@@ -105,7 +117,7 @@
 					<li><a href="#">Contact</a></li>
 				</ul>
 			</details>
-
+	
 			<details>
 				<summary>Sociale Impact</summary>
 				<ul>
@@ -113,13 +125,13 @@
 					<li><a href="#">Duurzaamheid omarmen</a></li>
 				</ul>
 			</details>
-
+	
 			<ul>
 				<li><a href="#">Privacy Policy</a></li>
 				<li><a href="#">Terms of Use</a></li>
 				<li><a href="#">Cookie Policy</a></li>
 			</ul>
-
+	
 			<!-- <ul>
 				<li><img src="images/afbeelding_facebook_logo.svg" alt="Een afbeelding van het FaceBook logo."></li>
 				<li><img src="images/afbeelding_tiktok_logo.svg" alt="Een afbeelding van het Tiktok logo"></li>
