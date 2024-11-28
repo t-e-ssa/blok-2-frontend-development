@@ -17,10 +17,13 @@
 			<button aria-hidden="true"><img src="images/afbeelding_hamburger-menu.png" alt=""></button>
 
 			<nav>
-				<button aria-hidden="true"><img src="images/afbeelding_menu_sluiten.png" alt=""></button>
+				<!-- <img src="images/afbeelding_logo_goeieversie.png" alt=""> -->
+				<button aria-hidden="true">
+					<img src="images/afbeelding_menu_sluiten.png" alt="">
+				</button>
 
 				<div>
-					<ul>
+					<ul class="menu_onderdeel_1">
 						<li><a class="huidige_pagina">Home</a></li>
 						<li><a href="#">Menu</a></li>
 						<li><a href="#">Onze koffies</a></li>
@@ -34,7 +37,6 @@
 						<li><a href="#">Vind een winkel</a></li>
 						<li><a href="#">Nederlands</a></li>
 					</ul>
-			
 				</div>
 				
 				<ul>
@@ -61,7 +63,7 @@
 				<p>Jouw favoriete formaat, hele dag de ideale temperatuur</p>
 				<p>Limited edition</p>
 				-->
-				<img src="images/afbeelding_stanleycup.webp" alt="Een afbeelding van een Starbucks actie...">
+				<img src="images/afbeelding_stanleycup.webp" alt="Een afbeelding van een actie waarbij je je favoriete drankjes van Starbucks nu in een Stanley Cup kan drinken.">
 	
 				<h2>Ben je klaar voor dé ultieme Red Cup van het seizoen?</h2>
 				<p>De Limited Edition Starbucks + Stanley Quencher is er! Wees er snel bij en blijf stijlvol gehydrateerd!</p>
@@ -69,14 +71,14 @@
 			</section>
 			
 			<section class="grijze_container">
-				<img src="images/afbeelding_starbucks_bezorging.jpeg" alt="Een afbeelding van....">
+				<img src="images/afbeelding_starbucks_bezorging.jpeg" alt="Een afbeelding van een aantal Starbucks drankjes die verpakt zijn voor bezorging.">
 				<h2>Starbucks® Bezorgd</h2>
 				<p>Geniet van al je favorieten knus op je bank terwijl je je favoriete serie bingewatcht. We bezorgen tot aan je deur, zodat je kunt genieten van je Iced Latte of Caramel Frappuccino in de comfort van je eigen huis.</p>
 				<a href="#">Bestel nu</a>
 			</section>
 	
 			<section class="groene_container">
-				<img src="images/afbeelding_duurzaamheid.jpeg" alt="">
+				<img src="images/afbeelding_duurzaamheid.jpeg" alt="Het logo van Starbucks weergegeven met groene planten.">
 				<h2>Duurzaamheid omarmen</h2>
 				<p>Vanaf 1 juli 2023 brengen we kosten in rekening voor alle wegwerp items gemaakt van plastic. Go Green 💚</p>
 				<a href="#">Ontdek meer</a>
@@ -100,43 +102,54 @@
 		</main>
 		
 		<footer>
-			<details>
-				<summary>Over ons</summary>
+			<section class="algemene_onderdelen_footer">
+				<div>
+					<a href="#"><img src="images/afbeelding_logo_goeieversie.png" alt="Dit is een afbeelding van het logo van Starbucks."></a>
+	
+					<details>
+						<summary>Over ons</summary>
+						<ul>
+							<li><a href="#">Over ons</a></li>
+							<li><a href="#">Onze koffies</a></li>
+							<li><a href="#">Starbucks Verhalen & Nieuws</a></li>
+							<li><a href="#">Starbucks® Ready to Drink</a></li>
+						</ul>
+					</details>
+			
+					<details>
+						<summary>Contact</summary>
+						<ul>
+							<li><a href="#">Werken bij Starbucks</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</details>
+			
+					<details>
+						<summary>Sociale Impact</summary>
+						<ul>
+							<li><a href="#">Verantwoordelijkheid</a></li>
+							<li><a href="#">Duurzaamheid omarmen</a></li>
+						</ul>
+					</details>
+				</div>
+		
 				<ul>
-					<li><a href="#">Over ons</a></li>
-					<li><a href="#">Onze koffies</a></li>
-					<li><a href="#">Starbucks Verhalen & Nieuws</a></li>
-					<li><a href="#">Starbucks® Ready to Drink</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Cookie Policy</a></li>
 				</ul>
-			</details>
-	
-			<details>
-				<summary>Contact</summary>
-				<ul>
-					<li><a href="#">Werken bij Starbucks</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</details>
-	
-			<details>
-				<summary>Sociale Impact</summary>
-				<ul>
-					<li><a href="#">Verantwoordelijkheid</a></li>
-					<li><a href="#">Duurzaamheid omarmen</a></li>
-				</ul>
-			</details>
-	
-			<ul>
-				<li><a href="#">Privacy Policy</a></li>
-				<li><a href="#">Terms of Use</a></li>
-				<li><a href="#">Cookie Policy</a></li>
-			</ul>
-	
-			<!-- <ul>
-				<li><img src="images/afbeelding_facebook_logo.svg" alt="Een afbeelding van het FaceBook logo."></li>
-				<li><img src="images/afbeelding_tiktok_logo.svg" alt="Een afbeelding van het Tiktok logo"></li>
-			</ul>
-			-->
+			</section>
+
+			<section class="fixed_footer">
+				<div class="footer_item actief">
+					<img src="images/afbeelding_huis_icoon.svg" alt="Dit is een afbeelding van een huis icoon.">
+					<h2>Home</h2>
+				</div>
+				<div class="footer_item">
+					<img src="images/afbeelding_locatie_icoon.svg" alt="Dit is een afbeelding van een locatie icoon.">
+					<h2>Locatie</h2>
+				</div>
+			</section>
 		</footer>
 	</body>
 	

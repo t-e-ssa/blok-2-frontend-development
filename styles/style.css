@@ -23,12 +23,12 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 13vh;
+	height: 12vh;
 }
 
 header img {
-	width: 15vw;
-	height: 15vh;
+	width: 13vw;
+	height: 13vh;
 }
 
 header button img {
@@ -51,6 +51,11 @@ nav {
 	z-index: 15;
 }
 
+nav button {
+	margin-left: auto;
+	padding-top: 17px;
+}
+
 nav a {
 	text-decoration: none;
 }
@@ -59,33 +64,38 @@ nav ul {
 	list-style: none;
 }
 
+nav div {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-color: #E0E0E0;
+	padding: 15px;
+}
+
+nav div ul:nth-of-type(2) {
+	font-size: 1em;
+	padding: 8px;
+}
+
 nav.toonMenu {
 	translate:0% 0%;
 }
 
-/* Footer */
-footer {
-	background-color: var(--quaternaireKleur);
-	color: var(--secundaireKleur);
+.menu_onderdeel_1 {
+	font-size: 1.2em;
+	padding: 8px;
 }
 
-footer a {
-	text-decoration: none;
-	color: var(--secundaireKleur);
+.menu_onderdeel_1 li {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
-footer ul {
-	list-style: none;
+.menu_onderdeel_1 a {
+	color: black;
 }
 
-footer ul img {
-	width: 8em;
-	height: 8em;
-	border-radius: 200px;
-}
-
-footer details ul {
-	padding-left: 8px;
+.huidige_pagina {
+	font-weight: 600;
 }
 
 
@@ -170,6 +180,15 @@ footer details ul {
 	border-radius: 10px 10px 0 0;
 }
 
+.groene_container:last-of-type h2 {
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+.groene_container:last-of-type button {
+	margin: 20px
+}
+
 .grijze_container {
 	background-color: var(--tertaireKleur);
 	border-radius: 10px;
@@ -223,4 +242,67 @@ footer details ul {
 
 	width: 40vw;
 	margin-left: 5%;
+}
+
+/* Footer */
+.algemene_onderdelen_footer {
+	background-color: var(--quaternaireKleur);
+	color: var(--secundaireKleur);
+	height: 50vh;
+}
+
+.algemene_onderdelen_footer div {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-color: #4A4A4A;
+	padding: 15px;
+}
+
+.algemene_onderdelen_footer img {
+	width: 3em;
+	height: 3em;
+	border-radius: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer a {
+	text-decoration: none;
+	color: var(--secundaireKleur);
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer details {
+	padding-left: 20px;
+}
+
+footer ul {
+	padding: 8px;
+}
+
+.fixed_footer {
+	background-color: var(--secundaireKleur);
+	height: 13vh;
+	color: #4A4A4A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer_item img {
+	width: 10vw;
+	height: 10vh;
+}
+
+footer section h2 {
+	font-weight: 500;
+	font-size: 1em;
+	padding: 10px;
+}
+
+.actief {
+	color: var(--primaireKleur);
 }
