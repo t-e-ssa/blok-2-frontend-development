@@ -13,7 +13,7 @@
 	<body>
 
 		<header data-page="pagina2">
-			<a href="#"><img src="images/logo.svg" alt="Dit is een afbeelding van het logo van Starbucks."></a>
+			<a href="index.html"><img src="images/logo.svg" alt="Dit is een afbeelding van het logo van Starbucks."></a>
 			<h1>Starbucks</h1>
 			<button aria-hidden="true"><img src="images/afbeelding_hamburger-menu.png" alt=""></button>
 
@@ -33,28 +33,27 @@
 		</header>
 
 		<main>
-			<section class="groene_container_pagina2">
+			<section class="inleiding_pagina2">
 				<h2>Geef je dag een boost</h2>
 				<video controls src="videos/pagina2_video1.mov">Uw browser ondersteunt dit videoformaat niet.</video>
-				
+				<a id="aanpasbare_linktekst" href="#">Dit zijn gekoelde klassiekers</a>
+			</section>
+
+			<section class="drankjes_overzicht">
+				<h2>Refresh and Reset</h2>
+				<p>Met Starbucks® chilled classics</p>
 				<div>
-					<a id="aanpasbare_linktekst" href="#">Dit zijn gekoelde klassiekers</a>
-					<button>Pijltje</button>
+					<button><img src="images/afbeelding_dunne_pijl.svg" alt=""></button>
+					<a href="#">Bekijk</a>
+					<button><img src="images/afbeelding_dunne_pijl.svg" alt=""></button>
 				</div>
 			</section>
 
-			<section>
-				<h2>Refresh and Reset</h2>
-				<p>Met Starbucks® chilled classics</p>
-				<button>Pijltje wijzend naar links</button>
-				<a href="#">Bekijk</a>
-				<button>Pijltje wijzend naar rechts</button>
-			</section>
-
-			<section>
+			<section class="quiz">
 				<h2>Kun je geen keuze maken?</h2>
 				<p>Klik hier om jouw perfecte gekoelde koffie te vinden.</p>
 				<a href="#">Doe de quiz</a>
+				<img src="images/afbeelding_quiz.webp" alt="">
 			</section>
 
 			<section>
@@ -82,7 +81,60 @@
 		</main>
 
 		<footer>
+			<section class="algemene_onderdelen_footer">
+				<div>
+					<a href="#"><img src="images/afbeelding_logo_goeieversie.png" alt="Dit is een afbeelding van het logo van Starbucks."></a>
+	
+					<details>
+						<summary>Over ons</summary>
+						<ul>
+							<li><a href="#">Over ons</a></li>
+							<li><a href="#">Onze koffies</a></li>
+							<li><a href="#">Starbucks Verhalen & Nieuws</a></li>
+							<li><a href="#">Starbucks® Ready to Drink</a></li>
+						</ul>
+					</details>
+			
+					<details>
+						<summary>Contact</summary>
+						<ul>
+							<li><a href="#">Werken bij Starbucks</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</details>
+			
+					<details>
+						<summary>Sociale Impact</summary>
+						<ul>
+							<li><a href="#">Verantwoordelijkheid</a></li>
+							<li><a href="#">Duurzaamheid omarmen</a></li>
+						</ul>
+					</details>
+				</div>
+		
+				<ul class="algemene_onderdelen_footer_item">
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms of Use</a></li>
+					<li><a href="#">Cookie Policy</a></li>
+				</ul>
 
+				<ul class="algemene_onderdelen_footer_social_media">
+					<li><img src="images/afbeelding_facebook_logo.svg" alt=""></li>
+					<li><img src="images/afbeelding_instagram_logo.svg" alt=""></li>
+					<li><img src="images/afbeelding_tiktok_logo.svg" alt=""></li>
+				</ul>
+			</section>
+
+			<section class="fixed_footer">
+				<div class="footer_item">
+					<img src="images/afbeelding_huis_icoon.svg" alt="Dit is een afbeelding van een huis icoon.">
+					<h2>Home</h2>
+				</div>
+				<div class="footer_item">
+					<img src="images/afbeelding_locatie_icoon.svg" alt="Dit is een afbeelding van een locatie icoon.">
+					<h2>Locatie</h2>
+				</div>
+			</section>
 		</footer>
 		<script src="scripts/script.js"></script> 
 	</body>

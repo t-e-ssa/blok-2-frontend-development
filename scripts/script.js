@@ -22,10 +22,10 @@ function veranderLinkTekst () {
     if (linkTekst.textContent == "Dit zijn gekoelde klassiekers") {
       linkTekst.textContent = "Dit is de tripleshot espresso";
     } else if (linkTekst.textContent == "Dit is de tripleshot espresso") {
-      linkTekst.textContent = "Dit is de frappeccino";
+      linkTekst.textContent = "Dit is de frappuccino";
     } else {
       linkTekst.textContent = "Dit zijn gekoelde klassiekers";
     }
 }
 
-setInterval (veranderLinkTekst, 4000);
+setInterval (veranderLinkTekst, 6500);
