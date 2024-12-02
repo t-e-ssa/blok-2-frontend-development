@@ -494,6 +494,14 @@ header[data-page="pagina2"] h1{
 	border: 1.5px solid var(--secundaireKleur);
 }
 
+.drankjes_overzicht button:first-of-type img {
+	transform: rotate(90deg);
+}
+
+.drankjes_overzicht button:last-of-type img {
+	transform: rotate(270deg);
+}
+
 .drankjes_overzicht {
 	background-color: var(--quaternaireKleur);
 	color: var(--secundaireKleur);
@@ -547,10 +555,24 @@ main > div p {
 
 main > div a {
 	display: block;
-	padding-left: 20px;
-	padding-top: 10px;
 }
 
 main > div section:last-of-type {
 	height: 120vh;
+}
+
+main > div a {
+	text-decoration: none;
+	border-radius: 20px;
+	background-color: var(--primaireKleur);
+	color: var(--secundaireKleur);
+	font-size: 1.1em;
+	margin-left: 20px;
+	margin-top: 20px;
+	height: 7vh;
+	width: 70vw;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
