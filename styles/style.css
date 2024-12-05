@@ -37,6 +37,8 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	height: 12vh;
+	border-bottom: 1px solid #E0E0E0;
+}
 }
 
 header a {
@@ -71,10 +73,10 @@ nav {
 	position:fixed;
  	left:0;
   	right:0;
-  	top:0;
+  	top: 77px;
   	bottom:0;
   
-  	translate:-100% 0%;
+  	translate:100% 0%;
   	transition:translate .7s;
 
 	background-color: var(--secundaireKleur);
@@ -95,16 +97,15 @@ nav ul {
 	list-style: none;
 }
 
-nav > div {
-	border-top: 1px solid;
+nav.toonMenu {
+	translate:0% 0%;
+}
+
+nav .menu_onderdeel_2:last-of-type {
 	border-bottom: 1px solid;
 	border-color: #E0E0E0;
 	margin-top: 10px;
 	margin-bottom: 15px;
-}
-
-nav.toonMenu {
-	translate:0% 0%;
 }
 
 .menu_onderdeel_1 {
@@ -644,8 +645,9 @@ header[data-page="pagina2"] h1 {
 #bekijkKnop {
 	background-color: white;
 	position: absolute;
-	left: 4.3em;
+	left: 50%;
 	top: 23.4em;
+	transform: translateX(-50%);
 	padding: 0.4em 5em;
 	border-radius: 10em;
 	text-decoration: none;
@@ -793,7 +795,7 @@ header[data-page="pagina2"] h1 {
   /****************/
   
   /* de bolletjes container */
-  .caroCarrousel nav ul {
+  .carrousel_bolletjes ul {
 	position: absolute;
 	  left: 2em; right: 2em;
 	  bottom: 0;
@@ -808,13 +810,13 @@ header[data-page="pagina2"] h1 {
   }
   
   /* een bolletje container */
-  .caroCarrousel > nav li {
+  .carrousel_bolletjes li {
 	  flex-basis: 1.2em;
 	  aspect-ratio: 1/1;
   }
   
   /* de bolletjes */
-  .caroCarrousel > nav a {
+  .carrousel_bolletjes a {
 	display: block;
 	width:100%;
 	height:100%;
@@ -829,12 +831,12 @@ header[data-page="pagina2"] h1 {
 	transition: 0.5s;
   }
   
-  .caroCarrousel > nav a:hover,
-  .caroCarrousel > nav a:focus {
+  .carrousel_bolletjes a:hover,
+  .carrousel_bolletjes a:focus {
 	color: var(--caroCarrouselAccentColor);
   }
   
-  .caroCarrousel > nav a.current {
+  .carrousel_bolletjes a.current {
 	background-color: currentColor;
   }
 

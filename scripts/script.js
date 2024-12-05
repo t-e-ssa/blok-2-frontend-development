@@ -297,7 +297,7 @@ function createCarousel(carouselID, options) {
     let elementsContainer = carousel.querySelector(":scope > ul");
     let elements = elementsContainer.querySelectorAll("li");
     let linkButtons = carousel.querySelectorAll(":scope > button");
-    let bolletjes = carousel.querySelectorAll(":scope > nav a");
+    let bolletjes = carousel.querySelectorAll(":scope .carrousel_bolletjes a");
     options = options || {}; // Voor configuratie
 
     function initButtons() {
@@ -369,7 +369,7 @@ function createCarousel(carouselID, options) {
     }
 
     function updateBolletjes(newElement) {
-        let currentBolletje = carousel.querySelector(":scope > nav .current");
+        let currentBolletje = carousel.querySelector(":scope > .carrousel_bolletjes .current");
         if (currentBolletje) currentBolletje.classList.remove("current");
         let newBolletje = carousel.querySelector(`a[href='#${newElement.id}']`);
         if (newBolletje) newBolletje.classList.add("current");
