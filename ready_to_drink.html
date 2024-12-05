@@ -8,6 +8,10 @@
 		
 		<link href="styles/style.css" rel="stylesheet">
 		<link rel="icon" type="image/svg+xml" href="images/logo.svg">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	</head>
 	
 	<body>
@@ -23,7 +27,13 @@
 				</button>
 
 				<ul class="menu_onderdeel_1">
-					<li><a href="#">Onze producten ></a></li>
+					<li class="doorklik_nav">
+						<a href="#">Onze producten ></a>
+						<ul class="menu2">
+							<button aria-hidden="true"><img src="images/afbeelding_menu_sluiten.png" alt=""></button>
+							<li>Kaas</li>
+						</ul>
+					</li>
 					<li><a href="#">Dit is cool ></a></li>
 					<li><a href="#">Waar te koop ></a></li>
 					<li><a href="#">Duurzaamheid ></a></li>
@@ -51,8 +61,9 @@
 					</ul>
 					
 					<button class="previous" aria-label="Naar het element aan de linkerkant"></button>
-					<a href="#">Bekijk</a>
+					<a id="bekijkKnop" href="#">Bekijk</a>
 					<button class="next" aria-label="Naar het element aan de rechterkant"></button>
+
 				</div>
 			</section>
 
@@ -62,9 +73,35 @@
 				<a href="#">Doe de quiz</a>
 				<img src="images/afbeelding_quiz.webp" alt="">
 			</section>
-
-			<section>
-				<h2>Wat is er gaande in de Starbucks-community?</h2>
+			  
+			  
+			<section id="bolletjesAndArrowKeys" class="caroCarrousel" aria-label="Voorbeeld met bolletjes en pijltjestoetsen" tabIndex="-1">
+				<h2>Wat is er gaande in de Starbucks-community?</h2>  
+				<ul>
+				  <li id="element1"><video src="videos/carrousel_video_1.mp4" alt="kittens"></li>
+				  <li id="element2"><img src="https://assets.codepen.io/274456/carousel-image2.jpg" alt="kittens" /></li>
+				  <li id="element3"><img src="https://assets.codepen.io/274456/carousel-image3.jpg" alt="kittens" /></li>
+				  <li id="element4"><img src="https://assets.codepen.io/274456/carousel-image4.jpg" alt="kittens" /></li>
+				  <li id="element5"><img src="https://assets.codepen.io/274456/carousel-image5.jpg" alt="kittens" /></li>
+				  <li id="element6"><img src="https://assets.codepen.io/274456/carousel-image6.jpg" alt="kittens" /></li>
+				  <li id="element7"><img src="https://assets.codepen.io/274456/carousel-image7.jpg" alt="kittens" /></li>
+				  <li id="element8"><img src="https://assets.codepen.io/274456/carousel-image8.jpg" alt="kittens" /></li>
+				  <li id="element9"><img src="https://assets.codepen.io/274456/carousel-image9.jpg" alt="kittens" /></li>
+				</ul>
+				
+				<nav>
+				  <ul>
+					<li><a href="#element1" aria-label="go to element1"></a></li>
+					<li><a href="#element2" aria-label="go to element2"></a></li>
+					<li><a href="#element3" aria-label="go to element3"></a></li>
+					<li><a href="#element4" aria-label="go to element4"></a></li>
+					<li><a href="#element5" aria-label="go to element5"></a></li>
+					<li><a href="#element6" aria-label="go to element6"></a></li>
+					<li><a href="#element7" aria-label="go to element7"></a></li>
+					<li><a href="#element8" aria-label="go to element8"></a></li>
+					<li><a href="#element9" aria-label="go to element9"></a></li>
+				  </ul>
+				</nav>
 			</section>
 
 			<section class="extra_starbucks_kennis">
@@ -79,10 +116,8 @@
 				<img src="images/afbeelding_duurzaamheid.webp" alt="">
 				<h2>Duurzaamheid</h2>
 				<h3>Van boon tot koffie</h3>
-				<p>
-					Starbucks zet zich in voor 100% ethisch verantwoorde koffie-inkoop samen met Conservation International volgens de normen van het Coffee and Farmer Equity (C.A.F.E.) Practices-programma. 
-					C.A.F.E. C.A.F.E. Practices is een verificatieprogramma dat landbouwbedrijven toetst aan economische, sociale en milieucriteria, allemaal bedoeld om transparante, winstgevende en duurzame koffieteeltmethodes te bevorderen en tegelijkertijd het welzijn van koffieboeren en -arbeiders, hun gezinnen en hun gemeenschappen te beschermen.
-				</p>
+				<p> Starbucks zet zich in voor 100% ethisch verantwoorde koffie-inkoop samen met Conservation International volgens de normen van het Coffee and Farmer Equity (C.A.F.E.) Practices-programma.</p>
+				<p> C.A.F.E. C.A.F.E. Practices is een verificatieprogramma dat landbouwbedrijven toetst aan economische, sociale en milieucriteria, allemaal bedoeld om transparante, winstgevende en duurzame koffieteeltmethodes te bevorderen en tegelijkertijd het welzijn van koffieboeren en -arbeiders, hun gezinnen en hun gemeenschappen te beschermen.</p>	
 				<a href="#">Kom meer te weten</a>
 			</section>
 		</main>
@@ -90,7 +125,7 @@
 		<footer>
 			<section class="algemene_onderdelen_footer">
 				<div>
-					<a href="#"><img src="images/afbeelding_logo_goeieversie.png" alt="Dit is een afbeelding van het logo van Starbucks."></a>
+					<a href="index.html"><img src="images/afbeelding_logo_goeieversie.png" alt="Dit is een afbeelding van het logo van Starbucks."></a>
 	
 					<details>
 						<summary>Over ons</summary>

@@ -7,9 +7,9 @@
 }
 
 * {
-	font-family: ;
+	font-family: poppins;
 	margin: 0;
-}
+}  
 
 summary {
 	display: flex;
@@ -37,6 +37,10 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	height: 12vh;
+}
+
+header a {
+	color: black;
 }
 
 header img {
@@ -75,6 +79,7 @@ nav {
 
 	background-color: var(--secundaireKleur);
 	z-index: 15;
+	overflow-y: auto; 
 }
 
 nav button {
@@ -84,7 +89,6 @@ nav button {
 
 nav a {
 	text-decoration: none;
-	margin: 20px;
 }
 
 nav ul {
@@ -95,6 +99,8 @@ nav > div {
 	border-top: 1px solid;
 	border-bottom: 1px solid;
 	border-color: #E0E0E0;
+	margin-top: 10px;
+	margin-bottom: 15px;
 }
 
 nav.toonMenu {
@@ -112,7 +118,34 @@ nav.toonMenu {
 }
 
 .menu_onderdeel_1 a {
-	color: black;
+	margin: 20px;
+}
+
+.menu_onderdeel_2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 22px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.menu_onderdeel_2 img {
+	width: 2em;
+	height: auto;
+	margin: 0;
+}
+
+.menu_onderdeel_2 a {
+	margin-left: 7px;
+}
+
+.menu_onderdeel_2 summary {
+	margin-left: 7px;
+	display: flex;
+	justify-content: space-between;
+	gap: 12em;
+	margin-top: 8px;
 }
 
 .huidige_pagina {
@@ -130,18 +163,26 @@ nav.toonMenu {
 
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
+	/* justify-content: flex-end; */
+	/* align-items: center; */
+	/* Deze opties hierboven weer aan om terug te gaan naar wat je had. */
 
 }
 
 .inleiding h1 {
 	color: var(--secundaireKleur);
 	font-size: 1.2em;
+	margin-top: 1.3em;
+	margin-left: 2.3em;
 }
+/* Hierboven en hieronder zijn margins toegevoegd door mij, Thomas Norden.
+We hebben samen alles geprobeerd maar dit was het enige wat lukte
+om dezelfde styling te krijgen als de starbucks website.
+don't judge, mijn schuld. Groetjes Thomas */
 
 .inleiding a {
-	margin: 20px;
+	align-self: center;
+	margin-top: 3.5em;
 }
 
 .inleiding a, 
@@ -151,7 +192,7 @@ nav.toonMenu {
 	background-color: var(--secundaireKleur);
 	color: black;
 	border: none;
-	font-size: 1em;
+	font-size: 0.9em;
 	
 	height: 6.5vh;
 	width: 80vw;
@@ -174,7 +215,7 @@ nav.toonMenu {
 	position: absolute;
 	color: var(--secundaireKleur);
 	font-size: 1em;
-	width: 29%;
+	width: 28%;
 	margin-left: 2.5%;
 	margin-top: 2%;
 	font-weight: 500;
@@ -186,10 +227,11 @@ nav.toonMenu {
 	background-color: var(--primaireKleur, green);
 	color: var(--secundaireKleur);
 	border-radius: 10px;
+	position: relative;
 
 	margin: 5%;
 	width: 90vw;
-	height: 65vh;
+	height: 68vh;
 }
 
 .groene_container img {
@@ -200,6 +242,7 @@ nav.toonMenu {
 
 .groene_container h2 {
 	font-size: 1.1em;
+	font-weight: 600;
 }
 
 .groene_container p {
@@ -213,6 +256,13 @@ nav.toonMenu {
 .grijze_container p, 
 .grijze_container a {
 	margin: 20px;
+}
+
+.groene_container a, 
+.grijze_container a,
+.groene_container button {
+	position: absolute;
+	bottom: 0;
 }
 
 .groene_container:last-of-type h2 {
@@ -231,15 +281,15 @@ nav.toonMenu {
 	margin: 20px
 }
 
-
 /* Grijze vlakken - Pagina 1 */
 .grijze_container {
 	background-color: var(--tertaireKleur);
 	border-radius: 10px;
+	position: relative;
 
 	margin: 5%;
 	width: 90vw;
-	height: 65vh;
+	height: 70vh;
 }
 
 .grijze_container article {
@@ -316,7 +366,7 @@ footer section h2 {
 .algemene_onderdelen_footer {
 	background-color: var(--quaternaireKleur);
 	color: var(--secundaireKleur);
-	height: 90vh;
+	height: 100vh;
 }
 
 .algemene_onderdelen_footer div {
@@ -334,11 +384,11 @@ footer a {
 }
 
 .algemene_onderdelen_footer a img {
-	width: 3em;
-	height: 3em;
+	width: 3.5em;
+	height: 5.5em;
 	border-radius: 200px;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .algemene_onderdelen_footer summary {
@@ -397,7 +447,7 @@ footer a {
 
 
 /* ----------------------------------------------------- Pagina 2 - Ready to Drink ---------------------------------------------------- */
-header[data-page="pagina2"] h1{
+header[data-page="pagina2"] h1 {
     font-size: 1.3em;
 	text-transform: uppercase;
 	color: var(--primaireKleur);
@@ -436,7 +486,7 @@ header[data-page="pagina2"] h1{
 	text-decoration: none;
 	border-radius: 20px;
 	font-size: 1.1em;
-	height: 8vh;
+	height: 7vh;
 	width: 85vw;
 	font-weight: 550;
 
@@ -483,48 +533,11 @@ header[data-page="pagina2"] h1{
 	padding-top: 20px;
 }
 
-.extra_starbucks_kennis img {
-	width: 100vw;
-	height: auto;
-	margin-top: 50px;
-	margin-bottom: 20px;
-}
-
-.extra_starbucks_kennis h2 {
-	font-size: 1em;
-	padding-left: 20px;
-}
-
-.extra_starbucks_kennis h3 {
-	font-size: 2em;
-	padding: 20px;
-}
-
-.extra_starbucks_kennis p {
-	padding-left: 20px;
-}
-
-.extra_starbucks_kennis a {
-	text-decoration: none;
-	border-radius: 20px;
-	background-color: var(--primaireKleur);
-	color: var(--secundaireKleur);
-	font-size: 1.1em;
-	margin-left: 20px;
-	margin-top: 20px;
-	height: 7vh;
-	width: 70vw;
-
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .drankjes_overzicht {
 	background-color: #29473D;
 	color: var(--secundaireKleur);
 	padding: 20px;
-	height: 83vh;
+	height: auto;
 }
 
 .drankjes_overzicht h2 {
@@ -536,7 +549,6 @@ header[data-page="pagina2"] h1{
 	margin-bottom: 20px;
 	font-size: 1.2em;
 }
-
 
 /* Hieronder wordt de code van de site: https://codepen.io/shooft/pen/mdBOZLz gebruikt ter inspiratie voor de carrousel. */
 
@@ -583,6 +595,7 @@ header[data-page="pagina2"] h1{
 	
 	color: var(--secundaireKleur);
 	background-color: #ddd9;
+	border-radius: 100%;
 	outline: none;
 	box-shadow: inset 0 0 0 1px currentColor;
 	  
@@ -628,4 +641,220 @@ header[data-page="pagina2"] h1{
 	transform: translateY(0) rotate(-45deg);
 }
 
+#bekijkKnop {
+	background-color: white;
+	position: absolute;
+	left: 4.3em;
+	top: 23.4em;
+	padding: 0.4em 5em;
+	border-radius: 10em;
+	text-decoration: none;
+	color: var(--primaireKleur);
+}
+
 /* Einde van de gebruikte site ter inspiratie voor de carrousel */
+.extra_starbucks_kennis img {
+	width: 100vw;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.extra_starbucks_kennis h2 {
+	font-size: 1em;
+	padding-left: 20px;
+}
+
+.extra_starbucks_kennis h3 {
+	font-size: 2em;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+.extra_starbucks_kennis p {
+	padding-left: 20px;
+	margin-top: 15px;
+}
+
+.extra_starbucks_kennis a {
+	text-decoration: none;
+	border-radius: 20px;
+	background-color: var(--primaireKleur);
+	color: var(--secundaireKleur);
+	font-size: 1.1em;
+	margin-left: 20px;
+	margin-top: 20px;
+	height: 6.5vh;
+	width: 70vw;
+
+	margin-bottom: 40px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.extra_starbucks_kennis:last-of-type a {
+	width: 50vw;
+}
+
+
+/* TEST */
+/********************/
+/* ALGEMENE STIJLEN */
+/********************/
+
+*, *::before, *::after {
+	box-sizing: border-box;
+  }
+  
+  :root {
+	  --maxWidth:32rem;
+  }
+  
+  body {
+	  grid-template-columns: minmax(auto, var(--maxWidth));
+	  justify-content:center;
+  }
+  
+	
+  /******************************/
+  /* DE CAROCARROUSEL CONTAINER */
+  /******************************/
+  
+  .caroCarrousel {
+	  /* basis waarden die door de hele carrousel gebruikt worden */
+	  /* kun je zelf aanpassen */
+	  --caroCarrouselMainColor:#333;
+		--caroCarrouselAccentColor:#1b75b3;
+	  --caroCarrouselShadeColor:#ddd9;
+  
+		position: relative;
+	  outline:none;
+	  padding-bottom: 20px;
+	  padding-top: 20px;
+  }
+  
+.caroCarrousel h2 {
+	padding-left: 20px;
+}
+  
+  
+  /************************************/
+  /* de carrousel elementen container */
+  .caroCarrousel > ul {
+	margin: 0; padding: 0;
+	list-style: none;
+	  display: flex;
+	  
+	  /* handmatig scrollen is mogelijk */
+	  overflow: hidden;
+	  
+	  /* snappen als er gescrolled wordt - andere helft bij li */
+	scroll-snap-type: inline mandatory;
+	
+	  /* smooth als met js gescrolled wordt */
+	  scroll-behavior: smooth;
+	
+	/* scrollbar zoveel mogelijk verbergen */
+	-webkit-overflow-scrolling: touch; /* voor iOS*/
+	-ms-overflow-style: none; /* voor IE */
+	  scrollbar-width: none; /* voor firefox */
+  }
+  
+  .caroCarrousel > ul::-webkit-scrollbar {
+	/* scrollbar zoveel mogelijk verbergen */
+	display: none; /* voor chrome, safari en edge*/
+  }
+  
+  
+  /**************************/
+  /* de carrousel elementen */
+  .caroCarrousel > ul li {
+	flex-basis: 100%;
+	flex-shrink: 0;
+	/* snappen als er gescrolled wordt - andere helft bij ul */
+	  scroll-snap-align:center;
+  }
+  
+  
+  /**********************************/
+  /* de carrousel elementen content */
+  
+  /* de stijlen voor jouw content hier */
+  .caroCarrousel > ul li > video {
+	display: block;
+	width: 100%;
+  }
+  
+  
+  /****************/
+  /* DE BOLLETJES */
+  /****************/
+  
+  /* de bolletjes container */
+  .caroCarrousel nav ul {
+	position: absolute;
+	  left: 2em; right: 2em;
+	  bottom: 0;
+	  margin: 0;
+	padding: 0 0 .5em;
+	list-style: none;
+	  
+	  display: flex;
+  /* 	flex-wrap:wrap; */
+	justify-content: center;
+	gap:.4em;
+  }
+  
+  /* een bolletje container */
+  .caroCarrousel > nav li {
+	  flex-basis: 1.2em;
+	  aspect-ratio: 1/1;
+  }
+  
+  /* de bolletjes */
+  .caroCarrousel > nav a {
+	display: block;
+	width:100%;
+	height:100%;
+	
+	text-decoration: none;
+	  color: var(--caroCarrouselMainColor);
+	background-color: var(--caroCarrouselShadeColor);
+	  border-radius: 50%;
+	outline: none;
+	  box-shadow: inset 0 0 0 1px currentColor;
+	
+	transition: 0.5s;
+  }
+  
+  .caroCarrousel > nav a:hover,
+  .caroCarrousel > nav a:focus {
+	color: var(--caroCarrouselAccentColor);
+  }
+  
+  .caroCarrousel > nav a.current {
+	background-color: currentColor;
+  }
+
+
+
+
+
+.menu2 {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	translate: -200% 0%;
+	transition: translate .3s;
+	background-color: var(--secundaireKleur);
+	width: 100%;
+	z-index: 30;
+}
+
+.openTweedeMenu {
+	translate: 0% 0%;
+}
