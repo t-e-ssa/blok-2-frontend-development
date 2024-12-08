@@ -1,26 +1,27 @@
 console.log("Slay");
 
-var openButton = document.querySelector("header button");
-var sluitButton = document.querySelector("nav button");
+var menuToggleButton = document.querySelector("header button");
 var linkTekst = document.querySelector("#aanpasbare_linktekst");
 var openMenu2 = document.querySelector(".doorklik_nav a");
 var sluitMenu2 = document.querySelector(".menu2 button");
 var menu2 = document.querySelector(".menu2");
 
-openButton.onclick = openMenu;
-sluitButton.onclick = sluitMenu;
+menuToggleButton.onclick = toggleMenu;
 
 openMenu2.addEventListener("click", openTweedeMenu);
-sluitMenu2.addEventListener("click", sluitTweedeMenu);
 
-function openMenu() {  
-  var deNav = document.querySelector("nav");
-  deNav.classList.add("toonMenu");
-}
 
-function sluitMenu() {
+function toggleMenu() {  
   var deNav = document.querySelector("nav");
-  deNav.classList.remove("toonMenu");
+  var menuAfbeelding = document.querySelector(".toggleAfbeelding");
+  
+  if (deNav.classList.contains("toonMenu")) {
+    deNav.classList.remove("toonMenu");
+    menuAfbeelding.src = "/images/afbeelding_hamburger-menu.png";
+  } else {
+    deNav.classList.add("toonMenu");
+    menuAfbeelding.src = "/images/afbeelding_menu_sluiten.png";
+  }
 }
 
 function veranderLinkTekst() {

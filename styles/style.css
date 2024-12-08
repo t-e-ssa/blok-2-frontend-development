@@ -84,11 +84,6 @@ nav {
 	overflow-y: auto; 
 }
 
-nav button {
-	margin-left: auto;
-	padding-top: 17px;
-}
-
 nav a {
 	text-decoration: none;
 }
@@ -152,7 +147,6 @@ nav .menu_onderdeel_2:last-of-type {
 .huidige_pagina {
 	font-weight: 600;
 }
-
 
 /* ----------------------------------------------------- Pagina 1 - Homepagina ---------------------------------------------------- */
 
