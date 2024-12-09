@@ -332,9 +332,9 @@ De Nederlandse Starbucks-website heeft enkele toegankelijkheidsproblemen voor ge
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="images/screencapture-t-e-ssa-github-io-blok-2-frontend-development-2024-12-09-21_26_23.pdf" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screencapture-t-e-ssa-github-io-blok-2-frontend-development-2024-12-09-21_26_23.pdfscreencapture-t-e-ssa-github-io-blok-2-frontend-development-2024-12-09-21_26_23.pdf" width="375px" alt="uitomst opdracht 1">
 
-  <img src="images/screencapture-t-e-ssa-github-io-blok-2-frontend-development-ready-to-drink-html-2024-12-09-21_30_15.pdf">
+  <img src="readme-images/screencapture-t-e-ssa-github-io-blok-2-frontend-development-ready-to-drink-html-2024-12-09-21_30_15.pdfscreencapture-t-e-ssa-github-io-blok-2-frontend-development-ready-to-drink-html-2024-12-09-21_30_15.pdf">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -343,8 +343,6 @@ De Nederlandse Starbucks-website heeft enkele toegankelijkheidsproblemen voor ge
 
   ### Dit was lastig/Is niet gelukt:
   Helaas is het mij niet gelukt om de "bekijkKnop" op de goeie plaats te krijgen en responsive te krijgen. Dit komt omdat ik het erg lastig vond om de code van Sanne te gebruiken en om te zetten naar mijn eigen website. Ik heb meerdere malen tijdens de les hier om hulp gevraagd, maar helaas kwamen daar wat kleine tips uit en ben ik niet veel verder gekomen.
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
