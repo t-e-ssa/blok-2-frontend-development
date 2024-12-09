@@ -332,7 +332,9 @@ De Nederlandse Starbucks-website heeft enkele toegankelijkheidsproblemen voor ge
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="images/screencapture-t-e-ssa-github-io-blok-2-frontend-development-2024-12-09-21_26_23.pdf" width="375px" alt="uitomst opdracht 1">
+
+  <img src="images/screencapture-t-e-ssa-github-io-blok-2-frontend-development-ready-to-drink-html-2024-12-09-21_30_15.pdf">
 
 
   ### Dit ging goed/Heb ik geleerd: 
