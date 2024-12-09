@@ -884,6 +884,15 @@ header[data-page="pagina2"] h1 {
 	flex-direction: column;
 }
 
+.drankjes_quiz_wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.kennis_wrapper {
+	display: flex;
+	flex-direction: column;
+}
 
 /* Media Queries */
 
@@ -897,13 +906,15 @@ header[data-page="pagina2"] h1 {
 @media screen and (min-width: 650px) {
 	.groene_container,
 	.grijze_container {
-		height: 550px;
+		height: 600px;
 	}
 }
 
 @media screen and (min-width: 750px) {
 	.inleiding_feest_wrapper,
-	.container_wrapper {
+	.container_wrapper,
+	.drankjes_quiz_wrapper,
+	.kennis_wrapper {
 		flex-direction: row;
 		margin: 20px;
 	}
@@ -927,6 +938,31 @@ header[data-page="pagina2"] h1 {
 	
 	.grijze_container article {
 		width: 100%;
+	}
+
+	.quiz {
+		width: 100%;
+	}
+
+	.quiz a {
+		width: 80%;
+	}
+
+	.quiz img {
+		width: 100%;
+	}
+
+	.drankjes_overzicht,
+	.extra_starbucks_kennis:first-of-type {
+		width: 50%;
+	}
+
+	.extra_starbucks_kennis a {
+		width: 76%;
+	}
+
+	.extra_starbucks_kennis img {
+		width: 25em;
 	}
 }
 
@@ -964,5 +1000,9 @@ header[data-page="pagina2"] h1 {
 		max-width: 40%;
 		margin-right: auto;
 		margin-left: auto;
+	}
+
+	.carrousel > ul li > img {
+		width: 40%;
 	}
 }
