@@ -469,7 +469,7 @@ De tekst word blauw indien deze geselecteerd is.
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/screencapture-t-e-ssa-github-io-blok-2-frontend-development-2024-12-09-21_26_23.pdfscreencapture-t-e-ssa-github-io-blok-2-frontend-development-2024-12-09-21_26_23.pdf" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screencapture-t-e-ssa-github-io-blok-2-frontend-development-ready-to-drink-html-2024-12-09-21_30_15.pdf>
 
   <img src="readme-images/screencapture-t-e-ssa-github-io-blok-2-frontend-development-ready-to-drink-html-2024-12-09-21_30_15.pdfscreencapture-t-e-ssa-github-io-blok-2-frontend-development-ready-to-drink-html-2024-12-09-21_30_15.pdf">
 
