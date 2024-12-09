@@ -940,6 +940,10 @@ header[data-page="pagina2"] h1 {
 		width: 100%;
 	}
 
+	.drankjes_quiz_wrapper {
+		margin-top: 4em;
+	}
+
 	.quiz {
 		width: 100%;
 	}
@@ -964,6 +968,13 @@ header[data-page="pagina2"] h1 {
 	.extra_starbucks_kennis img {
 		width: 25em;
 	}
+
+	.caroCarrousel {
+		max-width: 25em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
 }
 
 @media screen and (min-width: 750) and (max-width:1000) {
@@ -991,6 +1002,7 @@ header[data-page="pagina2"] h1 {
 
 	.groene_container:last-of-type {
 		max-width: 83vw;
+		max-height: 30vw;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 20px;
@@ -1002,7 +1014,60 @@ header[data-page="pagina2"] h1 {
 		margin-left: auto;
 	}
 
-	.carrousel > ul li > img {
+	.extra_starbucks_kennis:last-of-type {
+		width: 50%;
+	}
+
+	.extra_starbucks_kennis:last-of-type a {
 		width: 40%;
 	}
+
+	.drankjes_quiz_wrapper {
+		max-height: 800px ;
+	}
+
+	.quiz img {
+		width: 80%;
+	}
+
+	.inleiding_feest_wrapper {
+		justify-content: center;
+		height: 47.1vh;
+	}
+
+	.inleiding a {
+		margin-top: 8em;
+		width: 80%;
+	}
 }
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: black;
+		color: white;
+	}
+
+	header img {
+		background-color: white;
+	}
+
+	.grijze_container p, 
+	.grijze_container h2, 
+	.quiz p {
+		color: black;
+	}
+
+	header nav, 
+	.menu2, 
+	.menu2 button, 
+	header button {
+		background-color: black;
+	}
+
+	header nav li a, 
+	details, 
+	.menu2 a, 
+	.menu2 li{
+		color: white;
+	}
+  }
