@@ -11,6 +11,10 @@
 	margin: 0;
 }  
 
+body.menu-open {
+	overflow: hidden;
+}
+
 summary {
 	display: flex;
 	align-items: center; 
@@ -39,16 +43,16 @@ header {
 	height: 12vh;
 	border-bottom: 1px solid #E0E0E0;
 }
-}
 
 header a {
 	color: black;
 }
 
 header img {
-	width: 13vw;
-	height: 13vh;
+	width: 60px;
+    height: 60px;
 	margin: 20px;
+	margin-top: 30px;
 }
 
 header button img {
@@ -86,10 +90,15 @@ nav {
 
 nav a {
 	text-decoration: none;
+	color: black;
 }
 
 nav ul {
 	list-style: none;
+}
+
+nav details ul {
+	margin-bottom: 20px;
 }
 
 nav.toonMenu {
@@ -119,21 +128,32 @@ nav .menu_onderdeel_2:last-of-type {
 
 .menu_onderdeel_2 {
 	display: flex;
-	flex-direction: row;
 	align-items: center;
 	margin-left: 22px;
 	margin-bottom: 10px;
 	margin-top: 5px;
+
+	position: relative;
 }
 
 .menu_onderdeel_2 img {
-	width: 2em;
-	height: auto;
-	margin: 0;
+	position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 2em;
+    height: auto;
+    margin: 0;
 }
 
 .menu_onderdeel_2 a {
 	margin-left: 7px;
+	padding-left: 35px;
+}
+
+.menu_onderdeel_2 ul button {
+	display: flex;
+	justify-content: flex-start;
+	height: 30px;
 }
 
 .menu_onderdeel_2 summary {
@@ -142,6 +162,13 @@ nav .menu_onderdeel_2:last-of-type {
 	justify-content: space-between;
 	gap: 12em;
 	margin-top: 8px;
+	padding-left: 35px;
+}
+
+.menu2 button {
+	display: flex;
+	justify-content: flex-start;
+	text-decoration: underline;
 }
 
 .huidige_pagina {
@@ -202,8 +229,9 @@ don't judge, mijn schuld. Groetjes Thomas */
 }
 
 .feestdagen_container img {
-	width: 100vw;
-	height: 30vh;
+	width: 100%;      
+    height: auto;     
+    max-width: 1200px;
 }
 
 .feestdagen_container h2 {
@@ -230,8 +258,9 @@ don't judge, mijn schuld. Groetjes Thomas */
 }
 
 .groene_container img {
-	width: 90vw;
-	height: 30vh;
+	width: 100%;      
+    height: auto;     
+    max-width: 1200px;
 	border-radius: 10px 10px 0 0;
 }
 
@@ -300,8 +329,9 @@ don't judge, mijn schuld. Groetjes Thomas */
 }
 
 .grijze_container img {
-	width: 90vw;
-	height: 30vh;
+	width: 100%;      
+    height: auto;     
+    max-width: 1200px;
 	border-radius: 10px 10px 0 0;
 }
 
@@ -649,10 +679,12 @@ header[data-page="pagina2"] h1 {
 }
 
 /* Einde van de gebruikte site ter inspiratie voor de carrousel */
+
 .extra_starbucks_kennis img {
 	width: 100vw;
 	height: auto;
 	margin-bottom: 10px;
+	margin-top: 20px;
 }
 
 .extra_starbucks_kennis h2 {
@@ -725,43 +757,35 @@ header[data-page="pagina2"] h1 {
 		--caroCarrouselAccentColor:#1b75b3;
 	  --caroCarrouselShadeColor:#ddd9;
   
-		position: relative;
-	  outline:none;
-	  padding-bottom: 20px;
-	  padding-top: 20px;
-  }
+	position: relative;
+	outline:none;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
   
 .caroCarrousel h2 {
 	padding-left: 20px;
 }
   
   
-  /************************************/
-  /* de carrousel elementen container */
-  .caroCarrousel > ul {
+
+.caroCarrousel > ul {
 	margin: 0; padding: 0;
 	list-style: none;
-	  display: flex;
-	  
-	  /* handmatig scrollen is mogelijk */
-	  overflow: hidden;
-	  
-	  /* snappen als er gescrolled wordt - andere helft bij li */
+	display: flex;
+	overflow: hidden;
 	scroll-snap-type: inline mandatory;
+	scroll-behavior: smooth;
 	
-	  /* smooth als met js gescrolled wordt */
-	  scroll-behavior: smooth;
-	
-	/* scrollbar zoveel mogelijk verbergen */
-	-webkit-overflow-scrolling: touch; /* voor iOS*/
-	-ms-overflow-style: none; /* voor IE */
-	  scrollbar-width: none; /* voor firefox */
-  }
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: none; 
+	scrollbar-width: none;
+}
   
-  .caroCarrousel > ul::-webkit-scrollbar {
+.caroCarrousel > ul::-webkit-scrollbar {
 	/* scrollbar zoveel mogelijk verbergen */
 	display: none; /* voor chrome, safari en edge*/
-  }
+}
   
   
   /**************************/
@@ -772,16 +796,18 @@ header[data-page="pagina2"] h1 {
 	/* snappen als er gescrolled wordt - andere helft bij ul */
 	  scroll-snap-align:center;
   }
+
+.caroCarrousel > ul li > img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-top: 35px;
+}
   
   
   /**********************************/
   /* de carrousel elementen content */
   
-  /* de stijlen voor jouw content hier */
-  .caroCarrousel > ul li > video {
-	display: block;
-	width: 100%;
-  }
   
   
   /****************/
@@ -789,24 +815,21 @@ header[data-page="pagina2"] h1 {
   /****************/
   
   /* de bolletjes container */
-  .carrousel_bolletjes ul {
+.carrousel_bolletjes ul {
 	position: absolute;
-	  left: 2em; right: 2em;
-	  bottom: 0;
-	  margin: 0;
-	padding: 0 0 .5em;
+	left: 0; 
+	right: 0;
+	top: 6em;
 	list-style: none;
-	  
-	  display: flex;
-  /* 	flex-wrap:wrap; */
-	justify-content: center;
+	padding: 1em;
+	display: flex;
 	gap:.4em;
   }
   
   /* een bolletje container */
   .carrousel_bolletjes li {
-	  flex-basis: 1.2em;
-	  aspect-ratio: 1/1;
+	  flex-basis: 2em;
+	  height: 0.5em;
   }
   
   /* de bolletjes */
@@ -816,8 +839,8 @@ header[data-page="pagina2"] h1 {
 	height:100%;
 	
 	text-decoration: none;
-	  color: var(--caroCarrouselMainColor);
-	background-color: var(--caroCarrouselShadeColor);
+	  color: var(--primaireKleur);
+	background-color: var(--secundaireKleur);
 	  border-radius: 50%;
 	outline: none;
 	  box-shadow: inset 0 0 0 1px currentColor;
@@ -827,7 +850,7 @@ header[data-page="pagina2"] h1 {
   
   .carrousel_bolletjes a:hover,
   .carrousel_bolletjes a:focus {
-	color: var(--caroCarrouselAccentColor);
+	color: var(--primaireKleur);
   }
   
   .carrousel_bolletjes a.current {
@@ -853,4 +876,69 @@ header[data-page="pagina2"] h1 {
 
 .openTweedeMenu {
 	translate: 0% 0%;
+}
+
+.inleiding_feest_wrapper,
+.container_wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 470px) {
+	.groene_container, 
+	.grijze_container {
+		height: 500px;
+	}
+}
+
+@media screen and (min-width: 650px) {
+	.groene_container,
+	.grijze_container {
+		height: 550px;
+	}
+}
+
+@media screen and (min-width: 750px) {
+	.inleiding_feest_wrapper,
+	.container_wrapper {
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 20px;
+	}
+
+	.groene_container, 
+	.grijze_container {
+		flex: 1;
+		margin: 0 10px;
+		max-height: 500px;
+	}
+
+	.inleiding a,
+	.groene_container a,
+	.grijze_container a {
+		max-width: 90%;
+	}
+
+	.inleiding {
+		width: 50%;
+		min-height: 35vh;
+	}
+	
+	.grijze_container article {
+		width: 100%;
+	}
+
+	.groene_container:last-of-type {
+		height: 25em;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	main {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
 }
