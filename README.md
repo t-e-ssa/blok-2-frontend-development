@@ -469,8 +469,8 @@ De tekst word blauw indien deze geselecteerd is.
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/scherm1.pdf" width="375px" alt="top">
-<img src="readme-images/scherm2.pdf" width="375px" alt="top">
+  <img src="readme-images/scherm1.png" width="375px" alt="top">
+<img src="readme-images/scherm2.png" width="375px" alt="top">
 
 
   ### Dit ging goed/Heb ik geleerd: 
