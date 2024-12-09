@@ -301,8 +301,145 @@ De Nederlandse Starbucks-website heeft enkele toegankelijkheidsproblemen voor ge
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Naam: Tessa Strijbis
+  Test: 2
+ 
+Content
+Duidelijk taalgebruik
+Unieke beschrijving knoppen
+ 
+Opmerkingen content
+Mijn site bevat volledig correct Nederlands. Alle tekst is geformuleerd in normale Nederlands zinnen.
+De knoppen bevatten allemaal duidelijke call-to-actions die de gebruiker precies verteld wat hij/zij moet doen
+ 
+ 
+Global code
+Valideer uw html
+Gebruik een lang-attribuut op het html element
+Geef elke pagina een unieke titel
+Zorg ervoor dat viewport-zoom niet is uitgeschakeld
+ 
+Opmerkingen global code
+De code bevat geen errors.
+De lang van mijn site is ingesteld op NL.
+Alle pagina’s bevatten een unieke titel die omschrijft wat er op de bewuste pagina te vinden is.
+Op telefoon is inzoomen mogelijk. De viewport staat dus aan.
+ 
+Toetsenbord
+Zorg voor een duidelijke stijl bij interactieve elementen waarnaar wordt genavigeerd
+Zorg ervoor dat de focus volgorde overeenkomt met de beeld indeling.
+ 
+Opmerkingen toetsenbord
+Het is duidelijk welk element geselecteerd is door middel van een blauwe omlijning.
+De volgorde van de focus komt overeen met de volgorde van de content op de pagina.
+ 
+Mobiel en aanraking
+Bekijk of de site gedraaid kan worden
+Verwijder horizontaal scrollen
+Zorg ervoor dat knoppen en links makkelijk gebruikt kunnen worden (grootte en positie)
+Zorg voor genoeg witruimte tussen interactieve elementen voor scroll ruimte
+ 
+Opmerkingen mobiel en aanraking
+De site kam gedraaid worden en blijft volledig functioneel.
+Horizontaal scrollen is niet mogelijk op mijn site.
+Alle knoppen zijn duidelijk vormgegeven en goed klikbaar.
+Over de gehele site is genoeg witruimte om te kunnen scrollen door de pagina.
+ 
+Headings
+Gebruik header elementen om nieuwe content te introduceren
+Gebruik maar één h1 element per pagina
+Header elementen moeten in een logische volgorde worden geschreven
+Sla geen heading levels over
+ 
+Opmerkingen headings
+Alle nieuwe content word geïntroduceerd met een header element.
+Allebei mijn pagina’s bevatten maar 1 h1 tag.
+De volgorde van de header elementen op mijn pagina zijn logisch en lopen op volgorde.
+Er is geen header level overgeslagen.
+ 
+Lists
+Maak gebruik van de elementen ol, ul en dl voor content die in een lijst hoort
+ 
+Opmerkingen lists
+Op mijn site is meerdere keren gebruik gemaakt van een ul
+ 
+Images
+Zorg ervoor dat alle img elementen een alt attribuut hebben
+Zorg ervoor dat alle decoratieve img een null alt attribuut hebben
+Bied een tekst alternatief voor grote img zoals grafieken en kaarten
+Voor een img met tekst, zorg ervoor dat de alt omschrijving de tekst bevat
+ 
+Opmerkingen images
+Ik heb aan iedere foto een alt tag toegevoegd.
+De site maakt geen gebruik van decoratieve foto’s.
+De site bevat één kaart, deze bevat geen alternatief.
+De alt tags bevatten een gepaste omschrijving voor bij de foto.
+ 
+Media (video and audio)
+Zorg ervoor dat media niet automatisch afspeelt
+Zorg ervoor dat alle media gepauzeerd kan worden
+Zorg voor ondertiteling bij video’s
+Zorg voor transcripties bij geluid
+ 
+Opmerkingen media (video en audio)
+Mijn site bevat één video, deze staat standaard gepauzeerd en moet aangezet worden door de gebruiker.
+De media kan gepauzeerd worden.
+De video bevat geen geluid en dus ook geen ondertiteling.
+De site bevat geen geluiden.
+ 
+Controls
+Gebruik een a element voor links
+Zorg ervoor dat links herkenbaar zijn als links
+Zorg ervoor dat controls de staat :focus hebben
+Gebruik het button element voor knoppen
+Zorg voor een skip link en zorg dat deze zichtbaar is wanneer gefocust
+Identificeer links die geopend worden in een nieuwe tab of venster worden geopend.
+ 
+Opmerkingen controls
+Alle links bestaan uit een een a element.
+Alle links op mijn pagina zijn vormgegeven op een manier dat deze herkent kunnen worden als links.
+Er zijn geen extra focus states toegevoegd.
+Alle knoppen bestaan uit een button element.
+Er is geen skip link aanwezig op mijn pagina.
+De links die naar een andere pagina leiden zijn duidelijk vormgegeven.
+ 
+Apprearance
+Kijk of light- en dark mode worden ondersteund
+Bekijk of de hoge contrast modus wordt ondersteund
+Zet de tekst grootte op 200%
+Zorg ervoor dat informatie niet alleen wordt overgebracht via kleur
 
+
+Opmerkingen appearance
+De site bevat een light- en darkmode die verandert op basis van de gebruikers voorkeur.
+Er is geen bijzondere ondersteuning voor high contrast.
+De grootte van de tekst op mijn site schaalt mee met de voorkeur van de gebruiker.
+De informatie wordt ook met vormen en grootte ondersteund.
+ 
+Animation
+Zorg ervoor dat animaties subtiel zijn en niet te druk
+Zorg voor een mechanisme om achtergrond videos te pauzeren
+Zorg ervoor dat alle animaties voldoen aan mediaquery voorkeur reduced motion
+ 
+Opmerkingen animation
+De site maakt geen gebruik van animaties.
+De site maakt geen gebruik van animaties.
+Er zijn geen animaties en ik heb dus ook niks gedaan met reduced motion.
+ 
+Color contrast
+Bekijk het contrast voor alle normale teksten
+Bekijk het contrast voor alle grote teksten
+Bekijk het contrast voor alle iconen
+Bekijk tekst die fotos of videos overlapt
+Bekijk aangepaste selectie kleuren
+ 
+Opmerkingen color contrast
+Alle tekst is zwart met witte achtergrond en in darkmodus is dit andersom.
+Alle grotere teksten is zwart met witte achtergrond en in darkmodus is dit andersom.
+Alle iconen hebben een goed contrast en zijn daardoor goed zichtbaar.
+De tekst die over afbeeldingen loopt is goed zichtbaar door de lichte tekst op de donkere achtergrond.
+De tekst word blauw indien deze geselecteerd is.
+  
 </details>
 
 

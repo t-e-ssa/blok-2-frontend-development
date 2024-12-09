@@ -222,6 +222,7 @@ don't judge, mijn schuld. Groetjes Thomas */
 .inleiding a {
 	align-self: center;
 	margin-top: 3.5em;
+	margin-bottom: 15px;
 }
 
 .inleiding a, 
@@ -427,7 +428,7 @@ footer a {
 
 .algemene_onderdelen_footer a img {
 	width: 3.5em;
-	height: 5.5em;
+	height: 3.5em;
 	border-radius: 200px;
 	padding-top: 20px;
 	padding-bottom: 10px;
@@ -945,7 +946,6 @@ header[data-page="pagina2"] h1 {
 
 	.groene_container:last-of-type {
 		max-width: 83vw;
-		max-height: 30vw;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 20px;
