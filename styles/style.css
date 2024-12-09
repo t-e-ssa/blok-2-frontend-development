@@ -165,6 +165,23 @@ nav .menu_onderdeel_2:last-of-type {
 	padding-left: 35px;
 }
 
+.menu2 {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	translate: -200% 0%;
+	transition: translate .3s;
+	background-color: var(--secundaireKleur);
+	width: 100%;
+	z-index: 30;
+}
+
+.openTweedeMenu {
+	translate: 0% 0%;
+}
+
 .menu2 button {
 	display: flex;
 	justify-content: flex-start;
@@ -726,37 +743,9 @@ header[data-page="pagina2"] h1 {
 	width: 50vw;
 }
 
-
-/* TEST */
-/********************/
-/* ALGEMENE STIJLEN */
-/********************/
-
-*, *::before, *::after {
-	box-sizing: border-box;
-  }
-  
-  :root {
-	  --maxWidth:32rem;
-  }
-  
-  body {
-	  grid-template-columns: minmax(auto, var(--maxWidth));
-	  justify-content:center;
-  }
-  
-	
-  /******************************/
-  /* DE CAROCARROUSEL CONTAINER */
-  /******************************/
+/* Hieronder wordt de code van de site: https://codepen.io/shooft/pen/abmLPwy gebruikt ter inspiratie voor de carrousel. */
   
   .caroCarrousel {
-	  /* basis waarden die door de hele carrousel gebruikt worden */
-	  /* kun je zelf aanpassen */
-	  --caroCarrouselMainColor:#333;
-		--caroCarrouselAccentColor:#1b75b3;
-	  --caroCarrouselShadeColor:#ddd9;
-  
 	position: relative;
 	outline:none;
 	padding-bottom: 20px;
@@ -767,8 +756,6 @@ header[data-page="pagina2"] h1 {
 	padding-left: 20px;
 }
   
-  
-
 .caroCarrousel > ul {
 	margin: 0; padding: 0;
 	list-style: none;
@@ -783,19 +770,14 @@ header[data-page="pagina2"] h1 {
 }
   
 .caroCarrousel > ul::-webkit-scrollbar {
-	/* scrollbar zoveel mogelijk verbergen */
-	display: none; /* voor chrome, safari en edge*/
+	display: none;
 }
-  
-  
-  /**************************/
-  /* de carrousel elementen */
-  .caroCarrousel > ul li {
+
+.caroCarrousel > ul li {
 	flex-basis: 100%;
 	flex-shrink: 0;
-	/* snappen als er gescrolled wordt - andere helft bij ul */
-	  scroll-snap-align:center;
-  }
+	scroll-snap-align:center;
+}
 
 .caroCarrousel > ul li > img {
 	display: block;
@@ -804,17 +786,6 @@ header[data-page="pagina2"] h1 {
 	margin-top: 35px;
 }
   
-  
-  /**********************************/
-  /* de carrousel elementen content */
-  
-  
-  
-  /****************/
-  /* DE BOLLETJES */
-  /****************/
-  
-  /* de bolletjes container */
 .carrousel_bolletjes ul {
 	position: absolute;
 	left: 0; 
@@ -824,59 +795,38 @@ header[data-page="pagina2"] h1 {
 	padding: 1em;
 	display: flex;
 	gap:.4em;
-  }
+}
   
-  /* een bolletje container */
-  .carrousel_bolletjes li {
-	  flex-basis: 2em;
-	  height: 0.5em;
-  }
+.carrousel_bolletjes li {
+	flex-basis: 2em;
+	height: 0.5em;
+}
   
-  /* de bolletjes */
-  .carrousel_bolletjes a {
+.carrousel_bolletjes a {
 	display: block;
 	width:100%;
 	height:100%;
 	
 	text-decoration: none;
-	  color: var(--primaireKleur);
+	color: var(--primaireKleur);
 	background-color: var(--secundaireKleur);
-	  border-radius: 50%;
+	border-radius: 50%;
 	outline: none;
-	  box-shadow: inset 0 0 0 1px currentColor;
+	box-shadow: inset 0 0 0 1px currentColor;
 	
 	transition: 0.5s;
-  }
+}
   
-  .carrousel_bolletjes a:hover,
-  .carrousel_bolletjes a:focus {
+.carrousel_bolletjes a:hover,
+.carrousel_bolletjes a:focus {
 	color: var(--primaireKleur);
-  }
+}
   
-  .carrousel_bolletjes a.current {
+.carrousel_bolletjes a.current {
 	background-color: currentColor;
-  }
-
-
-
-
-
-.menu2 {
-	position: fixed;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	top: 0;
-	translate: -200% 0%;
-	transition: translate .3s;
-	background-color: var(--secundaireKleur);
-	width: 100%;
-	z-index: 30;
 }
 
-.openTweedeMenu {
-	translate: 0% 0%;
-}
+/* Einde van de gebruikte inspiratie van de site: https://codepen.io/shooft/pen/abmLPwy voor de carrousel. */
 
 .inleiding_feest_wrapper,
 .container_wrapper {
@@ -936,24 +886,18 @@ header[data-page="pagina2"] h1 {
 		width: 50%;
 	}
 	
-	.grijze_container article {
-		width: 100%;
-	}
-
 	.drankjes_quiz_wrapper {
 		margin-top: 4em;
 	}
 
-	.quiz {
+	.quiz, 
+	.quiz img,
+	.grijze_container article {
 		width: 100%;
 	}
 
 	.quiz a {
 		width: 80%;
-	}
-
-	.quiz img {
-		width: 100%;
 	}
 
 	.drankjes_overzicht,
@@ -974,10 +918,9 @@ header[data-page="pagina2"] h1 {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
 }
 
-@media screen and (min-width: 750) and (max-width:1000) {
+@media screen and (min-width: 750px) and (max-width:1000px) {
 	.groene_container:last-of-type {
 		height: 25em;
 		margin-left: auto;

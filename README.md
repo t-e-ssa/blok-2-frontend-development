@@ -265,27 +265,10 @@ De Nederlandse Starbucks-website heeft enkele toegankelijkheidsproblemen voor ge
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
+
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  Bij het eerste gesprek had ik voornamelijk dat ik zat te twijfelen tussen of een kopje nou een h2, h3 of een h4 element moest zijn. Uit dat feedback gesprek haalde ik veel goeie dingen, zodat ik gelijk goed kon gaan bouwen op mijn html structuur.
 
 </details>
 
@@ -299,26 +282,12 @@ De Nederlandse Starbucks-website heeft enkele toegankelijkheidsproblemen voor ge
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Vragen die ik had tijdens dit feedback gesprek
+- Gebruik ik te veel classes?
+- Hoe voeg ik het logo in menubalk opengeklapt toe?
+- Hoe krijg ik de link + button in het midden van de groene container op pagina 2.
 
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  
 
 </details>
 
@@ -346,26 +315,10 @@ De Nederlandse Starbucks-website heeft enkele toegankelijkheidsproblemen voor ge
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  Bij de feedback had ik een aantal vragen
+  - Hoe zet ik de knoppen van carrousel 2 op de goede plek?
+  - Hoe voeg je 2 dezelfde code toe in javascript, maar zodat het niet dubbel in de code staat?
+  - Hoe kan ik de bekijk knop op de goeie plek zetten bij carrousel 1?
 
 </details>
 
@@ -383,7 +336,7 @@ De Nederlandse Starbucks-website heeft enkele toegankelijkheidsproblemen voor ge
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 

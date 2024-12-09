@@ -1,5 +1,3 @@
-console.log("Slay");
-
 var menuToggleButton = document.querySelector("header button");
 var linkTekst = document.querySelector("#aanpasbare_linktekst");
 var openMenu2 = document.querySelector(".doorklik_nav a");
