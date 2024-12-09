@@ -358,8 +358,19 @@ De Nederlandse Starbucks-website heeft enkele toegankelijkheidsproblemen voor ge
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+Afbeeldingsbronnen
+1. https://www.google.com/url?sa=i&url=https%3A%2F%2Fsco.wikipedia.org%2Fwiki%2FFile%3AStarbucks_Corporation_Logo_2011.svg&psig=AOvVaw3rz8FrRg9r_5OqGPrcVR2g&ust=1732825696497000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjtrvKs_YkDFQAAAAAdAAAAABAE 
+2. https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-icons.com%2Fnl%2Ficoon%2Flocatie%2F66322&psig=AOvVaw17o89IPcAcXqCrO68tFSsb&ust=1732870654954000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCEw7zU_okDFQAAAAAdAAAAABAE 
+3. https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngtree.com%2Ffreepng%2Fcollection-icon_4423304.html&psig=AOvVaw29aMSI7CWkEQ09aRKw4S1G&ust=1732872943697000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCN0_jc_okDFQAAAAAdAAAAABAE 
+4. https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-icons.com%2Fnl%2Ficoon%2Fpijl-naar-beneden%2F152930&psig=AOvVaw2sq2zQ0CkiLb7fabJnokCB&ust=1733161943467000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMir68KRh4oDFQAAAAAdAAAAABAE 
+5. https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fglobe_900782&psig=AOvVaw2ADX3ECjdjSSukc_TD4cAI&ust=1733474919891000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNisgrifkIoDFQAAAAAdAAAAABAE 
+
+Code bronnen:
+1. https://www.sitepoint.com/style-html-details-element/ 
+2. https://codepen.io/shooft/pen/VwJXNEg 
+3. https://teams.microsoft.com/l/message/19:41dbfa43-ed48-46ab-80fb-831833488fa5_5dfee522-0d17-42c6-af78-0366a50f68b8@unq.gbl.spaces/1733226473561?context=%7B%22contextType%22%3A%22chat%22%7D 
+
+
+
 
 </details>
