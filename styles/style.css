@@ -181,7 +181,7 @@ nav .menu_onderdeel_2:last-of-type {
 .inleiding {
 	background-color: var(--primaireKleur, green);
 	width: 100vw;
-	height: 25vh;
+	height: auto;
 
 	display: flex;
 	flex-direction: column;
@@ -905,7 +905,6 @@ header[data-page="pagina2"] h1 {
 	.inleiding_feest_wrapper,
 	.container_wrapper {
 		flex-direction: row;
-		justify-content: space-between;
 		margin: 20px;
 	}
 
@@ -913,7 +912,7 @@ header[data-page="pagina2"] h1 {
 	.grijze_container {
 		flex: 1;
 		margin: 0 10px;
-		max-height: 500px;
+		max-height: 800px;
 	}
 
 	.inleiding a,
@@ -924,15 +923,19 @@ header[data-page="pagina2"] h1 {
 
 	.inleiding {
 		width: 50%;
-		min-height: 35vh;
 	}
 	
 	.grijze_container article {
 		width: 100%;
 	}
+}
 
+@media screen and (min-width: 750) and (max-width:1000) {
 	.groene_container:last-of-type {
 		height: 25em;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
 	}
 }
 
@@ -940,5 +943,26 @@ header[data-page="pagina2"] h1 {
 	main {
 		padding-left: 100px;
 		padding-right: 100px;
+	}
+
+	main button {
+		max-width: 40%;
+	}
+
+	.groene_container:last-of-type iframe {
+		max-width: 83vw;
+	}
+
+	.groene_container:last-of-type {
+		max-width: 83vw;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
+	#aanpasbare_linktekst {
+		max-width: 40%;
+		margin-right: auto;
+		margin-left: auto;
 	}
 }
