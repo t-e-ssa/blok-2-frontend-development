@@ -338,13 +338,11 @@ De Nederlandse Starbucks-website heeft enkele toegankelijkheidsproblemen voor ge
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik stelde veel vragen tijdens de les waardoor tussentijdse problemen vaak al snel konden worden opgelost. Waar ik erg trots op ben is dat ik zelf de footer heb gemaakt en dat ik helemaal zelf ervoor heb gezorgd dat er een knop is waarvan de inhoud van de knop aanpast in javascript. 
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Helaas is het mij niet gelukt om de "bekijkKnop" op de goeie plaats te krijgen en responsive te krijgen. Dit komt omdat ik het erg lastig vond om de code van Sanne te gebruiken en om te zetten naar mijn eigen website. Ik heb meerdere malen tijdens de les hier om hulp gevraagd, maar helaas kwamen daar wat kleine tips uit en ben ik niet veel verder gekomen.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
